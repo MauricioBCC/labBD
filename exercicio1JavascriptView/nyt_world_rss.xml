@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; World</title>
+    <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/World.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Thu, 01 Mar 2018 23:55:51 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; World</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/pages/world/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Putin Says New &#x2018;Invincible&#x2019; Missile Can Pierce U.S. and European Defenses</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/russia-putin-speech.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/russia-putin-speech.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/world/europe/russia-putin-speech.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/europe/02russiasub/02russiasub-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Vladimir V. Putin offered Russians a rosy picture of future prosperity and military might in his annual speech, delivered on Thursday in Moscow.</media:description>
+      <media:credit>Maxim Shipenkov/European Pressphoto Agency</media:credit>
+      <description>Russians had wondered before Mr. Putin&#x2019;s speech what he planned for his last term, and they got an answer: Russia will be a superpower again.</description>
+      <dc:creator>NEIL MacFARQUHAR</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 20:02:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Moscow (Russia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>The Mystery Man Who Runs Italy&#x2019;s &#x2018;Five Star&#x2019; From the Shadows</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/italy-election-davide-casaleggio-five-star.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/italy-election-davide-casaleggio-five-star.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/europe/italy-election-davide-casaleggio-five-star.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/europe/01italy-casaleggio1/xxitaly-casaleggio1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Davide Casaleggio, the son of the Five Star Movement&#x2019;s co-founder, Gianroberto Casaleggio, has no official role in the party. But critics say he controls it from behind the scenes.</media:description>
+      <media:credit>Andrea Ronchini/NurPhoto, via Getty Images</media:credit>
+      <description>Davide Casaleggio, a media-shy internet entrepreneur, is the Wizard of Oz-like figure behind the curtain of the country&#x2019;s leading party before Sunday&#x2019;s elections.</description>
+      <dc:creator>JASON HOROWITZ</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 13:39:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Casaleggio, Davide</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Five Star Movement (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Casaleggio Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+    </item>
+    <item>
+      <title>Heaviest Snow in Decades Batters U.K., Ireland and the Continent</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/uk-weather-warning.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/uk-weather-warning.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/uk-weather-warning.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/europe/02Europe-storm4/02Europe-storm4-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Lake Pecs, in central Hungary, froze over.</media:description>
+      <media:credit>Tamas Soki/MTI, via Associated Press</media:credit>
+      <description>A rare Siberian chill is hitting Europe with unusually cold, snowy and windy conditions. Britain warned of a &#x201C;risk to life,&#x201D; and the country faces a natural gas shortage.</description>
+      <dc:creator>CEYLAN YEGINSU</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:46:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Snow and Snowstorms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Met Office (United Kingdom)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+    </item>
+    <item>
+      <title>Pristina Journal: Not the Worst Hotel in the World, Perhaps, but &#x2018;the World Is Very Big&#x2019;</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/kosovo-grand-hotel.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/kosovo-grand-hotel.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/kosovo-grand-hotel.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02Kosovo-Hotel1/merlin_133788366_b88b7179-cb66-4a44-8283-5e82cbe30886-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Grand Hotel in Pristina, Kosovo.</media:description>
+      <media:credit>Laura Boushnak for The New York Times</media:credit>
+      <description>With 500 rooms, one guest, pigeons on the top floors and many cockroaches, the Grand Hotel in Kosovo reflects the travails of a new nation.</description>
+      <dc:creator>ANDREW HIGGINS</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 16:25:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hotels and Travel Lodgings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Kosovo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pristina (Kosovo)</category>
+    </item>
+    <item>
+      <title>Carles Puigdemont, Catalan Leader, Steps Aside</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/puigdemont-catalonia-spain.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/puigdemont-catalonia-spain.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/world/europe/puigdemont-catalonia-spain.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02Puigdemont-01/02Puigdemont-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Carles Puigdemont at a news conference in Brussels in December. He has given up his campaign to be reappointed as Catalonia&#x2019;s president.</media:description>
+      <media:credit>Yves Herman/Reuters</media:credit>
+      <description>The leader of the main separatist alliance in Catalonia, Carles Puigdemont, has given up his campaign to be reappointed as the region&#x2019;s president.</description>
+      <dc:creator>PATRICK KINGSLEY and RAPHAEL MINDER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:23:34 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Secession and Independence Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Puigdemont, Carles (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Catalonia (Spain)</category>
+    </item>
+    <item>
+      <title>U.S. Ambassador to Mexico to Quit Amid Tense Relations Under Trump</title>
+      <link>https://www.nytimes.com/2018/03/01/world/americas/us-ambassador-mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/americas/us-ambassador-mexico.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/americas/us-ambassador-mexico.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/americas/02ambassador/02ambassador-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Roberta S. Jacobson, center, the United States ambassador to Mexico, during a ceremony last month to break ground for the new American Embassy in Mexico City.</media:description>
+      <media:credit>Rebecca Blackwell/Associated Press</media:credit>
+      <description>Roberta S. Jacobson is one of the most experienced Latin America experts in the State Department, having spent most of her 31-year tenure focused on the region.</description>
+      <dc:creator>AZAM AHMED</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 18:58:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diplomatic Service, Embassies and Consulates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">State Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Tufts University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jacobson, Roberta S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pena Nieto, Enrique</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico City (Mexico)</category>
+    </item>
+    <item>
+      <title>Why This Tech Executive Says Her Plan to Disrupt Education Is Different</title>
+      <link>https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/14/world/00oz-school-1/00oz-school-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Students at Lumineer Academy in Williamstown, Australia. The school uses an alternative learning model based on technology businesses.</media:description>
+      <media:credit>Asanka Brendon Ratnayake for The New York Times</media:credit>
+      <description>Susan Wu, a Silicon Valley entrepreneur, has opened a school in Australia.</description>
+      <dc:creator>ADAM BAIDAWI</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 03:30:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Melbourne (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Susan Wu</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">For-Profit Schools</category>
+    </item>
+    <item>
+      <title>Prince William Will Go to Israel, in First Official Visit by a British Royal</title>
+      <link>https://www.nytimes.com/2018/03/01/world/middleeast/prince-william-israel-visit.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/middleeast/prince-william-israel-visit.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/middleeast/prince-william-israel-visit.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02israel-royal-01/02israel-royal-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Prince William, second in line to the British throne, will visit Israel, Jordan and the Palestinian territories in the occupied West Bank this summer.</media:description>
+      <media:credit>Pool photo by Chris Jackson</media:credit>
+      <description>Nearly 70 years after the British Mandate ended Prince William will make an official visit to the area, ending what many Israelis saw as a royal snub.</description>
+      <dc:creator>ISABEL KERSHNER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 21:00:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Palestinians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Royal Families</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Palestine Liberation Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Palestinian Authority</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">William, Duke of Cambridge</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+    </item>
+    <item>
+      <title>News Analysis: Pakistan&#x2019;s Shields Suddenly Step Aside, Placing It on Terrorism Listing</title>
+      <link>https://www.nytimes.com/2018/03/01/world/asia/pakistan-terrorism-china-saudi-arabia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/asia/pakistan-terrorism-china-saudi-arabia.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/world/asia/pakistan-terrorism-china-saudi-arabia.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/asia/02pakistan/02pakistan-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Hafiz Muhammad Saeed, the founder of Lashkar-e-Taiba, the group suspected of being behind the deadly 2008 attacks in Mumbai, India, in Lahore, Pakistan, after a court ordered his release from house arrest. Pakistan is accused of not doing enough to stop groups that sponsor terrorism.</media:description>
+      <media:credit>Mohsin Raza/Reuters</media:credit>
+      <description>The acceptance by China and Saudi Arabia of the U.S. effort to list Pakistan as too lax on terrorism financing is prompting worry, and debate, in Islamabad.</description>
+      <dc:creator>MARIA ABI-HABIB and SALMAN MASOOD</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 13:35:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pakistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Financial Action Task Force</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Jamaat-ud-Dawa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Lashkar-e-Taiba</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>Tariffs, Delta, Putin: Your Thursday Evening Briefing</title>
+      <link>https://www.nytimes.com/2018/03/01/briefing/tariffs-delta-putin.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/briefing/tariffs-delta-putin.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/briefing/tariffs-delta-putin.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/briefing/01Eveningbriefing-slide-1F9F/01Eveningbriefing-slide-1F9F-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Alexander Koerner/Getty Images</media:credit>
+      <description>Here&#x2019;s what you need to know at the end of the day.</description>
+      <dc:creator>KAREN ZRAICK and DAVID SCULL</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:31:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Poland and Israel in Tense Talks Over Law Likened to Holocaust Denial</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/poland-israel-holocaust.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/poland-israel-holocaust.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/poland-israel-holocaust.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02POLAND-01/02POLAND-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Visitors wearing Israeli flags at the Auschwitz-Birkenau Memorial last month.</media:description>
+      <media:credit>Maciek Nabrdalik for The New York Times</media:credit>
+      <description>The Polish law makes it a crime to blame &#x201C;the Polish nation&#x201D; for the Holocaust and other Nazi crimes.</description>
+      <dc:creator>ISABEL KERSHNER and JOANNA BERENDT</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:15:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Holocaust and the Nazi Era</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">World War II (1939-45)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">War Crimes, Genocide and Crimes Against Humanity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Anti-Semitism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Law and Justice (Poland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Morawiecki, Mateusz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Poland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+    </item>
+    <item>
+      <title>In Vatican Magazine Expos&#xE9;, Nuns Reveal Their Economic Exploitation</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/vatican-catholic-church-nuns-work.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/vatican-catholic-church-nuns-work.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/vatican-catholic-church-nuns-work.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02NUNS-01/02NUNS-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Nuns at a Mass celebrated by Pope Francis with members of different religious orders in St. Peter&#x2019;s Basilica at the Vatican last month.</media:description>
+      <media:credit>Domenco Stinellis/Associated Press</media:credit>
+      <description>Sisters are often relegated to unsung, and underpaid, roles in a male-centric church that does not recognize their talents or capabilities, according to nuns interviewed by a women&#x2019;s magazine.</description>
+      <dc:creator>ELISABETTA POVOLEDO</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 22:05:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuns</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roman Catholic Church</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Women Church World</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Italy</category>
+    </item>
+    <item>
+      <title>Putin Vows to Lift Russia&#x2019;s Struggling Middle Class</title>
+      <link>https://www.nytimes.com/2018/03/01/business/putin-speech-economy-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/business/putin-speech-economy-russia.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/business/putin-speech-economy-russia.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/business/02RUSSIAECON2/02RUSSIAECON2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Vladimir V. Putin&#x2019;s speech on the state of the nation resonated as an acknowledgement that international sanctions continue to hurt ordinary Russians.</media:description>
+      <media:credit>Pool photo by Michael Klimentyev</media:credit>
+      <description>President Vladimir V. Putin used his annual address to lay out a plan to reduce poverty and revive middle class fortunes.</description>
+      <dc:creator>PETER S. GOODMAN</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 19:56:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Putin, Vladimir V</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Economic Conditions and Trends</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Poverty</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Speeches and Statements</category>
+    </item>
+    <item>
+      <title>Confined on His Last Trip to Saudi Arabia, Lebanon&#x2019;s Leader Returns on Better Terms</title>
+      <link>https://www.nytimes.com/2018/03/01/world/middleeast/hariri-lebanon-saudi.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/middleeast/hariri-lebanon-saudi.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/middleeast/hariri-lebanon-saudi.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02HARIRI-01/02HARIRI-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>In a picture provided by the Saudi Royal Palace, King Salman, right, received Prime Minister Saad Hariri of Lebanon in Riyadh, the Saudi capital, on Wednesday.</media:description>
+      <media:credit>Bandar Al-Jaloud/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The Saudi news media showed Prime Minister Saad Hariri smiling and conferring with King Salman. There was no mention of the unpleasantness of the previous visit.</description>
+      <dc:creator>RICK GLADSTONE</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 19:23:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hariri, Saad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lebanon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Saudi Arabia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+    </item>
+    <item>
+      <title>South Korea Tells U.S. It Will Send Envoy to North Korea</title>
+      <link>https://www.nytimes.com/2018/03/01/world/asia/south-korea-north-korea-us-talks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/asia/south-korea-north-korea-us-talks.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/world/asia/south-korea-north-korea-us-talks.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02KOREA-01/02KOREA-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Moon Jae-in of South Korea notified President Trump on Thursday that his government would send an envoy to North Korea to help arrange talks between the North and the United States.</media:description>
+      <media:credit>Kim Hong-Ji/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>President Moon Jae-in informed President Trump that South Korea would send a special envoy to the North to help arrange talks with Washington.</description>
+      <dc:creator>CHOE SANG-HUN</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 19:21:36 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Tests</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nuclear Weapons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Jong-un</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moon Jae-in</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kim Yo-jong</category>
+    </item>
+    <item>
+      <title>Facebook to End News Feed Experiment in 6 Countries That Magnified Fake News</title>
+      <link>https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/business/02FACEBOOK1/02FACEBOOK1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A booth at Facebook&#x2019;s annual F8 developer conference in San Jose, Calif. The social network is stopping the experiment known as Explore, which separates news publishers from its main site.</media:description>
+      <media:credit>Noah Berger/Associated Press</media:credit>
+      <description>The social network is ending Explore, an experiment in countries like Bolivia and Cambodia, where it had separated news and other publishers from its main site.</description>
+      <dc:creator>SHEERA FRENKEL</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:55:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+    </item>
+    <item>
+      <title>Q Is for Queuing: Minting British Traditions With New 10-Pence Coins</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/uk-10p-royal-mint.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/uk-10p-royal-mint.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/uk-10p-royal-mint.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/europe/02uk-coin/02uk-coin-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Royal Mint in Britain will release a new set of 10 pence coins with themes surrounding British traditions and icons this month.</media:description>
+      <media:credit>Royal Mint</media:credit>
+      <description>Tea, an English breakfast and ice cream, along with icons from the obscure to the most famous, appear on the new coins designed for collectors and the public.</description>
+      <dc:creator>PALKO KARASZ</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 18:06:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">British Pound (Currency)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Currency</category>
+    </item>
+    <item>
+      <title>Germany Says Hackers Infiltrated Main Government Network</title>
+      <link>https://www.nytimes.com/2018/03/01/world/europe/germany-hackers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/europe/germany-hackers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/world/europe/germany-hackers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/europe/02germany-hack/02germany-hack-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Hackers penetrated a German government system that is used by the chancellor&#x2019;s office, ministries and the Parliament, above.</media:description>
+      <media:credit>Gordon Welters for The New York Times</media:credit>
+      <description>Officials said the attack was narrowly targeted, but they would not comment on reports of Russian involvement.</description>
+      <dc:creator>MELISSA EDDY</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 23:55:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberwarfare and Defense</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+    </item>
+    <item>
+      <title>China Detains Relatives of Radio Free Asia Reporters</title>
+      <link>https://www.nytimes.com/2018/03/01/world/asia/china-xinjiang-rfa.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/world/asia/china-xinjiang-rfa.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/world/asia/china-xinjiang-rfa.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/world/02UIGHUR-01/02UIGHUR-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Shohret Hoshur is one of at least four reporters whose family members are being held or whose whereabouts are unknown.</media:description>
+      <media:credit>Zach Gibson/The New York Times</media:credit>
+      <description>The journalists, U.S. citizens or permanent residents, have reported on China&#x2019;s crackdown on the Uighur ethnic group in the Xinjiang region.</description>
+      <dc:creator>AUSTIN RAMZY</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 17:26:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Uighurs (Chinese Ethnic Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Radio Free Asia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hoshur, Shohret (1965- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Xinjiang (China)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hoja, Gulchehra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Juma, Mamatjan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Niyaz, Kurban</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+    </item>
+    <item>
+      <title>Rites of Passage: Hi Hi Good Morning Hi I Love You It&#x2019;s Me</title>
+      <link>https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/22/style/00gm-1/00gm-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Illustration by Tracy Ma/The New York Times</media:description>
+      <media:credit/>
+      <description>WhatsApp connects families around the world in amazing ways, and also is a complete nightmare.</description>
+      <dc:creator>YONETTE JOSEPH</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 22:07:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Instant Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guyana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">WhatsApp Inc</category>
+    </item>
+    <item>
+      <title>Trilobites: They&#x2019;re Hosting Parasitic Worms in Their Bodies to Help Treat a Neglected Disease</title>
+      <link>https://www.nytimes.com/2018/03/01/health/parasitic-worms-schistosomiasis-trial.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/health/parasitic-worms-schistosomiasis-trial.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/health/parasitic-worms-schistosomiasis-trial.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/science/02tb-parasites/02tb-parasites-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Schistosoma mansoni parasites, the cause of the disease bilharzia, or schistosomiasis. The brown worm is an adult male and the green one is female.</media:description>
+      <media:credit>Nibsc/Science Source</media:credit>
+      <description>17 healthy volunteers were paid to help prove a method of testing vaccines for schistosomiasis, which can be lethal, but some researchers are conflicted about the trial.</description>
+      <dc:creator>HEATHER MURPHY</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 14:23:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parasites</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Worms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Schistosomiasis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Third World and Developing Countries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Africa</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Roestenberg, Meta</category>
+    </item>
+    <item>
+      <title>5 Places: Five Places to Go in Nashville</title>
+      <link>https://www.nytimes.com/2018/03/01/travel/five-places-to-go-in-nashville-wedgewood-houston.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/travel/five-places-to-go-in-nashville-wedgewood-houston.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/travel/five-places-to-go-in-nashville-wedgewood-houston.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/04/travel/04nashville-5places-2/04nashville-5places-2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Andrew Hannigan prepares cocktails at Bastion bar and restaurant in Nashville's Wedgewood-Houston neighborhood.</media:description>
+      <media:credit>Joe Buglewicz for The New York Times</media:credit>
+      <description>Nashville&#x2019;s Wedgewood-Houston neighborhood was long a run-down part of town. After creative types moved into the area, trendy restaurants, galleries, distilleries and other business have followed.</description>
+      <dc:creator>SHIVANI VORA</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 10:00:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Nashville (Tenn)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Wedgewood Houston</category>
+    </item>
+    <item>
+      <title>China&#x2019;s Censors Ban Winnie the Pooh and the Letter &#x2018;N&#x2019; After Xi&#x2019;s Power Grab</title>
+      <link>https://www.nytimes.com/2018/02/28/world/asia/china-censorship-xi-jinping.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/asia/china-censorship-xi-jinping.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/asia/china-censorship-xi-jinping.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>Censors swung into action after Mr. Xi&#x2019;s bid to become leader for life resurrected memories of Mao&#x2019;s personality cult and the feverish emotions that it created.</description>
+      <dc:creator>JAVIER C. HERN&#xC1;NDEZ</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 06:46:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Term Limits (Political Office)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mao Zedong</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cultural Revolution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Winnie-the-Pooh (Fictional Character)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Polls and Public Opinion</category>
+    </item>
+    <item>
+      <title>Egypt Is Using Banned U.S.-Made Cluster Munitions in Sinai, Rights Group Says</title>
+      <link>https://www.nytimes.com/2018/02/28/world/middleeast/egypt-cluster-munitions-sinai-us-amnesty-international.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/middleeast/egypt-cluster-munitions-sinai-us-amnesty-international.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/middleeast/egypt-cluster-munitions-sinai-us-amnesty-international.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01egypt-cluster/01egypt-cluster-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Images from Egypt&#x2019;s Defense Ministry are said to show Egyptian soldiers on a counterterrorism mission in the Sinai Peninsula. Amnesty International has accused Egypt of using outlawed cluster bombs in its Sinai campaign.</media:description>
+      <media:credit>Egyptian Ministry of Defence</media:credit>
+      <description>The use of such weapons would violate an international treaty and possibly American laws regarding recipients of American military aid.</description>
+      <dc:creator>RICK GLADSTONE and NOUR YOUSSEF</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 02:10:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cluster Munitions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sinai Peninsula (Egypt)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amnesty International</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+    </item>
+    <item>
+      <title>How China&#x2019;s Media Sold Xi Jinping&#x2019;s Power Grab</title>
+      <link>https://www.nytimes.com/video/world/asia/100000005771054/how-chinas-media-sold-xi-jinpings-power-grab.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/world/asia/100000005771054/how-chinas-media-sold-xi-jinpings-power-grab.html</guid>
+      <description>Soon after China&#x2019;s Communist Party announced a plan to end presidential term limits, its censors and propaganda machine kicked into high gear. Here&#x2019;s how it unfolded.</description>
+      <dc:creator/>
+      <pubDate>Thu, 01 Mar 2018 01:02:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Freedom of the Press</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Propaganda</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/mdes">Term Limits (Political Office)</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>Exxon Mobil Scraps a Russian Deal, Stymied by Sanctions</title>
+      <link>https://www.nytimes.com/2018/02/28/business/energy-environment/exxon-russia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/business/energy-environment/exxon-russia.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/business/energy-environment/exxon-russia.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/business/01EXXON2/01EXXON2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Vladimir V. Putin of Russia visiting a Rosneft refinery on the Black Sea in 2013. Two years earlier, Exxon Mobil and Rosneft, a state-run oil company, had agreed on a $3.2 billion joint exploration pact.</media:description>
+      <media:credit>Pool photo by Alexei Nikolsky</media:credit>
+      <description>A deepwater exploration agreement with the state-run oil company Rosneft was once one of Exxon&#x2019;s most promising agreements.</description>
+      <dc:creator>CLIFFORD KRAUSS</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 00:49:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Oil (Petroleum) and Gasoline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Exxon Mobil Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Rosneft</category>
+    </item>
+    <item>
+      <title>As Elections Near, Egypt Finds a New Target: Foreign News Media</title>
+      <link>https://www.nytimes.com/2018/02/28/world/middleeast/egypt-elections-news-media.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/middleeast/egypt-elections-news-media.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/middleeast/egypt-elections-news-media.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/autossell/01egypt/01egypt-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Egypt has escalated attacks on civil liberties before a presidential election, even though President Abdel Fattah el-Sisi faces no real opposition.</media:description>
+      <media:credit>Khaled Desouki/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Egypt&#x2019;s prosecutor, blaming the &#x201C;forces of evil&#x201D; for negative coverage, warned of legal action against news outlets on Thursday.</description>
+      <dc:creator>DECLAN WALSH</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 00:45:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of the Press</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">British Broadcasting Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sisi, Abdel Fattah el-</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aboul Fotouh, Abdel Moneim</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Freedom of Speech and Expression</category>
+    </item>
+    <item>
+      <title>U.S. Banks on Diplomacy With North Korea, but Moves Ahead on Military Plans</title>
+      <link>https://www.nytimes.com/2018/02/28/world/asia/us-north-korea-military-war-planning.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/asia/us-north-korea-military-war-planning.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/asia/us-north-korea-military-war-planning.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/us/politics/01dc-nkorea1/01dc-nkorea1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Gen. Joseph F. Dunford Jr., middle left, the chairman of the Joint Chiefs of Staff, and Gen. Mark A. Milley, middle right, the Army&#x2019;s chief of staff, at the Capitol in January. General Milley helped run a planning exercise for a war with North Korea last week, and General Dunford has argued forcefully for using diplomacy to address Pyongyang&#x2019;s nuclear program.</media:description>
+      <media:credit>Pool photo by Win McNamee</media:credit>
+      <description>The American military is looking at everything from troop rotations to surveillance to casualty evacuations should it be ordered to take action against North Korea.</description>
+      <dc:creator>HELENE COOPER and ERIC SCHMITT</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 00:39:59 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North Korea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Civilian Casualties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Defense Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Joint Chiefs of Staff</category>
+    </item>
+    <item>
+      <title>Letter 47: Poking and Prodding Democracy</title>
+      <link>https://www.nytimes.com/2018/02/28/world/australia/democracy-adelaide-festival-gender-letter47.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/australia/democracy-adelaide-festival-gender-letter47.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/australia/democracy-adelaide-festival-gender-letter47.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2014/03/16/sunday-review/01australialetter47-16ISSENBERG-copy/16ISSENBERG-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Oliver Munday</media:credit>
+      <description>This week&#x2019;s Australia Letter highlights coverage and events exploring the state of democracy and gender. Plus, stories that make us smile.</description>
+      <dc:creator>DAMIEN CAVE</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 23:56:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Adelaide (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hubble Space Telescope</category>
+    </item>
+    <item>
+      <title>Gun Control, Florida, Hope Hicks: Your Wednesday Evening Briefing</title>
+      <link>https://www.nytimes.com/2018/02/28/briefing/gun-control-florida-hope-hicks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/briefing/gun-control-florida-hope-hicks.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/briefing/gun-control-florida-hope-hicks.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/briefing/28Eveningbriefing-slide-UAPB/28Eveningbriefing-slide-UAPB-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Al Drago for The New York Times</media:credit>
+      <description>Here&#x2019;s what you need to know at the end of the day.</description>
+      <dc:creator>KAREN ZRAICK and DAVID SCULL</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 01:18:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Interpreter: Lies, Damned Lies, and One Very Misleading Statistic</title>
+      <link>https://www.nytimes.com/2018/02/28/world/americas/un-sexual-assaults.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/americas/un-sexual-assaults.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/americas/un-sexual-assaults.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01INT-FAKENUMBERS/01INT-FAKENUMBERS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The rubble of Port-au-Prince after an earthquake struck Haiti in 2010. Some Oxfam workers there were reported to have paid survivors for sex.</media:description>
+      <media:credit>Juan Barreto/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>An expert &#x201C;estimate&#x201D; that United Nations personnel sexually abused 60,000 people turns out to be more of a guess.</description>
+      <dc:creator>AMANDA TAUB</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 01:01:18 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Numbers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Nations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">School Shootings and Armed Attacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Sun, The (British Newspaper)</category>
+    </item>
+    <item>
+      <title>Trains Collide in Egypt, Killing at Least 12</title>
+      <link>https://www.nytimes.com/2018/02/28/world/middleeast/trains-collide-in-egypt-killing-at-least-12.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/middleeast/trains-collide-in-egypt-killing-at-least-12.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/middleeast/trains-collide-in-egypt-killing-at-least-12.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01EGYPT-TRAIN-01/01EGYPT-TRAIN-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Wreckage from the collision in the Nile Delta north of Cairo. Dozens were injured.</media:description>
+      <media:credit>Mohamed Abd El Ghany/Reuters</media:credit>
+      <description>Rail accidents have killed hundreds in recent years in Egypt, a product of poor management and maintenance of the nation&#x2019;s rail system.</description>
+      <dc:creator>THE ASSOCIATED PRESS</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 20:23:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Railroad Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Egypt</category>
+    </item>
+    <item>
+      <title>Trump&#x2019;s Nomination for the Nobel Peace Prize Was Apparently Forged. Twice.</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/nobel-peace-prize-trump-fake-nomination.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/nobel-peace-prize-trump-fake-nomination.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/europe/nobel-peace-prize-trump-fake-nomination.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01NOBEL-01/01NOBEL-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Olav Njolstad, the secretary of the five-member Norwegian Nobel Committee, said Wednesday that a nomination of President Trump appeared to be a fake.</media:description>
+      <media:credit>Nigel Waldron/Getty Images</media:credit>
+      <description>The police in Oslo said they were in contact with the F.B.I. about the forgeries, which suggests that they originated in the United States.</description>
+      <dc:creator>HENRIK PRYSER LIBELL</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 20:26:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Forgery</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nobel Prizes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Norwegian Nobel Committee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Norway</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+    </item>
+    <item>
+      <title>Why Can&#x2019;t U.K. Solve the Irish Border Problem in Brexit?</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/uk-northern-ireland-brexit.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/uk-northern-ireland-brexit.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/europe/uk-northern-ireland-brexit.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/europe/01brexit1/merlin_108918466_e2d568b3-704b-42f5-92ee-977e4b3a2d52-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A clothing shop in Muff, Ireland, near the border with Northern Ireland.</media:description>
+      <media:credit>Andrew Testa for The New York Times</media:credit>
+      <description>A plan by the European Union to avoid a hard border in Ireland provoked anger in Britain. Europeans say they still await British solutions.</description>
+      <dc:creator>STEPHEN CASTLE</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 19:24:53 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Great Britain Withdrawal from EU (Brexit)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Democratic Unionist Party (Northern Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">May, Theresa M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Corbyn, Jeremy (1949- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Northern Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brussels (Belgium)</category>
+    </item>
+    <item>
+      <title>Hungary&#x2019;s Soros-Backed University Is Reaccredited</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/ceu-hungary-soros.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/ceu-hungary-soros.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/europe/ceu-hungary-soros.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01HUNGARY-01/01HUNGARY-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Central European University in Budapest has been the subject of an intense battle in Hungary.</media:description>
+      <media:credit>Daniel Vegel/Central European University</media:credit>
+      <description>The Central European University in Budapest became a target last year in the government&#x2019;s broader campaign against the financier.</description>
+      <dc:creator>PALKO KARASZ</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 22:49:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Central European University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Soros, George</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ignatieff, Michael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orban, Viktor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fidesz Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">European Union</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Budapest (Hungary)</category>
+    </item>
+    <item>
+      <title>Murdered Slovak Reporter Sought to Expose Italian Organized Crime</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/slovakia-journalist-murder.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/slovakia-journalist-murder.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/europe/slovakia-journalist-murder.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/europe/01slovakia/01slovakia-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A vigil for the Slovak journalist Jan Kuciak and his fianc&#xE9;e, Martina Kusnirova, in Bratislava on Monday.</media:description>
+      <media:credit>David Duducz/European Pressphoto Agency</media:credit>
+      <description>Colleagues of Jan Kuciak published an article he was working on when he and his fianc&#xE9;e were killed, including a look into an aide to Slovakia&#x2019;s prime minister.</description>
+      <dc:creator>MIROSLAVA GERMANOVA and RICHARD P&#xC9;REZ-PE&#xD1;A</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 05:51:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kuciak, Jan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Crime</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Assassinations and Attempted Assassinations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">'Ndrangheta</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fico, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Slovakia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kusnirova, Martina</category>
+    </item>
+    <item>
+      <title>In Peace Overture, Afghan President Offers Passports to Taliban</title>
+      <link>https://www.nytimes.com/2018/02/28/world/asia/afghanistan-taliban-peace-talks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/asia/afghanistan-taliban-peace-talks.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/asia/afghanistan-taliban-peace-talks.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/asia/01afghanistan/01afghanistan-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Ashraf Ghani of Afghanistan in Kabul on Wednesday. &#x201C;We believe in providing a peaceful and respectful life for all Afghans, including those Taliban who leave violence behind,&#x201D; he said.</media:description>
+      <media:credit>Shah Marai/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>President Ashraf Ghani offered to treat the insurgents as a legitimate political party if they join peace talks. The group has spurned similar offers in the past.</description>
+      <dc:creator>ANDREW E. KRAMER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 07:48:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Taliban</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ghani, Ashraf</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+    </item>
+    <item>
+      <title>An Arctic Storm Blows Into Britain</title>
+      <link>https://www.nytimes.com/video/world/europe/100000005770420/an-arctic-storm-blows-into-britain.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/world/europe/100000005770420/an-arctic-storm-blows-into-britain.html</guid>
+      <description>The weather front traveled across Europe from Siberia, bringing snow, ice, transportation gridlock and, for some, joy.</description>
+      <dc:creator/>
+      <pubDate>Wed, 28 Feb 2018 18:10:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Ice</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Snow and Snowstorms</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Arctic Regions</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">Siberia</category>
+    </item>
+    <item>
+      <title>Tech We&#x2019;re Using: Mexico Has Its Spyware. A Reporter Has a Few Phones to Juggle.</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/29TECHUSING-1/29TECHUSING-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Azam Ahmed, the chief of The New York Times&#x2019;s Mexico bureau, talking with an editor on a satellite phone while reporting from a remote Haitian village after Hurricane Matthew in 2016.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>Our Mexico bureau chief, Azam Ahmed, uses various strategies to keep communications safe while reporting, including the low-tech tactic of in-person meetings.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 05:52:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Waze Mobile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">PayPal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Signal (Open Whisper Systems)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+    </item>
+    <item>
+      <title>Snowstorm Called &#x2018;Beast From the East&#x2019; Sends Britons Scrambling</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/uk-snow-beast-from-the-east.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/uk-snow-beast-from-the-east.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/europe/uk-snow-beast-from-the-east.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01BRITAIN-SNOW-01/01BRITAIN-SNOW-01-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;Nothing works when it snows in England,&#x201D; one commuter said. Central London was covered in snow as temperatures plunged below freezing on Wednesday after an Arctic storm blew in.</media:description>
+      <media:credit>Tolga Akmen/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>The storm shut schools, stranded drivers and disrupted trains and flights. But others said, &#x201C;These Brits are so dramatic.&#x201D;</description>
+      <dc:creator>CEYLAN YEGINSU</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 08:50:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Snow and Snowstorms</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Delays (Transportation)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weather</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">London (England)</category>
+    </item>
+    <item>
+      <title>6 Aid Workers Killed Amid Chaos in Central African Republic</title>
+      <link>https://www.nytimes.com/2018/02/28/world/africa/unicef-car-central-african-republic.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/africa/unicef-car-central-african-republic.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/africa/unicef-car-central-african-republic.html?partner=rss&amp;emc=rss"/>
+      <description>In a very poor nation racked by violence, Unicef said the victims were on their way to create a training program for teachers.</description>
+      <dc:creator>RICHARD P&#xC9;REZ-PE&#xD1;A</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 17:16:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Humanitarian Aid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United Nations Children's Fund</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Central African Republic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Markounda (Central African Republic)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+    </item>
+    <item>
+      <title>Bill Banning Circumcision in Iceland Alarms Religious Groups</title>
+      <link>https://www.nytimes.com/2018/02/28/world/europe/circumcision-ban-iceland.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/europe/circumcision-ban-iceland.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/europe/circumcision-ban-iceland.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/27/world/28xp-circumcision1/28xp-circumcision1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Midday prayers at the Reykjav&#xED;k Mosque in Iceland. Muslims in Iceland are concerned about a proposed ban on circumcision punishable by up to six years in prison.</media:description>
+      <media:credit>Egill Bjarnason/Associated Press</media:credit>
+      <description>Doctors, nurses and midwives have thrown their support behind the bill, which would ban circumcisions in children without a medical reason.</description>
+      <dc:creator>CHRISTINA CARON</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 17:11:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Circumcision</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Babies and Infants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Muslims and Islam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jews and Judaism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iceland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Denmark</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+    </item>
+    <item>
+      <title>Dutch Supermarket Introduces Plastic-Free Aisle</title>
+      <link>https://www.nytimes.com/2018/02/28/business/netherlands-plastic-supermarket.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/business/netherlands-plastic-supermarket.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/business/netherlands-plastic-supermarket.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/business/01DUTCH-PLASTIC1/01DUTCH-PLASTIC1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Garbage including plastic bags in Nairobi, Kenya. Scientists estimate that 8.3 billion metric tons of plastic has been produced worldwide since the 1950s, with about 6.3 billion metric tons of that thrown away.</media:description>
+      <media:credit>Daniel Irungu/European Pressphoto Agency</media:credit>
+      <description>The initiative, part of a global push to fight waste, saw about 700 products packaged in compostable materials or in glass, metal or cardboard.</description>
+      <dc:creator>CHRISTOPHER F. SCHUETZE</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 21:16:21 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ekoplaza</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Plastics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Recycling of Waste Materials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Plastic Bags</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Supermarkets and Grocery Stores</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Amsterdam (Netherlands)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Netherlands</category>
+    </item>
+    <item>
+      <title>In Taiwan, Young Protesters and Ex-Presidents Chafe Against China</title>
+      <link>https://www.nytimes.com/2018/02/28/world/asia/taiwan-chiang-kai-shek.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/asia/taiwan-chiang-kai-shek.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/asia/taiwan-chiang-kai-shek.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/world/01taiwan-protest/01taiwan-protest-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Chiang Kai-shek Memorial Hall in Taipei, Taiwan. While Chiang is still revered as a strong leader by some older residents, many younger Taiwanese oppose the use of his likeness or name in public spaces.</media:description>
+      <media:credit>Sam Yeh/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>In very different ways on Wednesday, Taiwan citizens used a public holiday to call for the island&#x2019;s 23 million people to have a greater say in their political identity.</description>
+      <dc:creator>CHRIS HORTON</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 05:21:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Taiwan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chiang Kai-shek</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tsai Ing-wen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Referendums</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Demonstrations, Protests and Riots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chen Shui-Bian</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee Teng-Hui</category>
+    </item>
+    <item>
+      <title>Blue Mountains Journal: How Immigrants Become Truly Canadian: On the Ski Slopes</title>
+      <link>https://www.nytimes.com/2018/02/28/world/canada/immigrants-skiing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/canada/immigrants-skiing.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/canada/immigrants-skiing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/24/world/americas/CanadaSki-slide-N2P1/CanadaSki-slide-N2P1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mahendran Arumugam, left, was one of many novice skiers at Blue Mountain resort on a recent Saturday.</media:description>
+      <media:credit>Tara Walton for The New York Times</media:credit>
+      <description>Eager to embrace the Canadian way of life, a growing number of newcomers are hazarding a go at their adopted nation&#x2019;s quintessential winter pastime.</description>
+      <dc:creator>DAN LEVIN</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 14:59:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Skiing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+    </item>
+    <item>
+      <title>Amid Turkish Assault, Kurdish Forces Are Drawn Away From U.S. Fight With ISIS</title>
+      <link>https://www.nytimes.com/2018/02/28/world/middleeast/syrian-kurds-isis-american-offensive.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/middleeast/syrian-kurds-isis-american-offensive.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/middleeast/syrian-kurds-isis-american-offensive.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/us/01dc-military-1/28dc-military-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Maj. Gen. Jamie Jarrard, left, of the United States Army, with Muhammed Abu Adel, commander of the Manbij Military Council, in northern Syria earlier this month. Mr. Adel&#x2019;s militia is among the Kurdish forces that have been key allies of the United States in the fight against the Islamic State in Syria.</media:description>
+      <media:credit>Susannah George/Associated Press</media:credit>
+      <description>Kurdish fighters in Syria who have been key in the American-led campaign against the Islamic State are peeling off to respond to Turkish attacks.</description>
+      <dc:creator>ERIC SCHMITT and ROD NORDLAND</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 18:54:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Kurds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Turkey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Syrian Democratic Forces</category>
+    </item>
+    <item>
+      <title>The Interpreter: Xi Sets China on a Collision Course With History</title>
+      <link>https://www.nytimes.com/2018/02/28/world/asia/xi-jinping-china.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/asia/xi-jinping-china.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/asia/xi-jinping-china.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/world/28INT-CHINA/28INT-CHINA-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>President Xi Jinping of China, front row center, at the closing ceremony of the Party Congress in Beijing last year.</media:description>
+      <media:credit>Andy Wong/Associated Press</media:credit>
+      <description>China kept a half-century of global democratic growth at bay by at least nodding to the importance of institutions and rules. Now what?</description>
+      <dc:creator>MAX FISHER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 18:04:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Xi Jinping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Term Limits (Political Office)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Democracy (Theory and Philosophy)</category>
+    </item>
+    <item>
+      <title>The Interpreter: Episode 2: National Identity Is Made Up</title>
+      <link>https://www.nytimes.com/2018/02/28/world/national-identity-myth.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/national-identity-myth.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/world/national-identity-myth.html?partner=rss&amp;emc=rss"/>
+      <description>Why do we identify with millions of strangers, just based on borders? In this video from The Interpreter, we explain the myth that built the modern world.</description>
+      <dc:creator/>
+      <pubDate>Wed, 28 Feb 2018 10:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">France</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-multimedia</category>
+    </item>
+  </channel>
+</rss>
+

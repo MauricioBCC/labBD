@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MAC439 - Exemplo para a lista de exercícios 1</title>
+	</head>
+	<style>
+		table,th,td {
+			border : 1px solid black;
+			border-collapse: collapse;
+		}
+		th,td {
+			padding: 5px;
+		}
+	</style>
+
+	<body>
+		<input type="file" id="rssfile">
+		<button type="button" onclick="CarregaRss()">Exibir categorias</button>
+		<br><br>
+		<table id="xml">
+			<tr><td> <table id="categorias"> </table></td><td> <table id="titulosLinks"></table></td></tr>
+		</table>
+
+		<script>
+
+		var XML_FILE;
+		var XMLSCHEMA_FILE = "rss-2_0.xsd";
+		var xmlRequestGlobal;
+		var categorias = [];
+		
+		/* Para testar verificacao de documento bem formado */
+		//var XML_FILE;
+		/* Para testar verificacao de documento com esquema valido */
+		//var XML_FILE = "catalogo_cd_erro2.xml";    
+
+
+
+		function CarregaRss() {
+			var posicaoBarra = -1;
+		    var nomeArquivo = document.getElementById("rssfile").value;
+
+		    if(nomeArquivo == "") {
+		    	alert("É necessária a escolha de um arquivo");
+
+		    }
+		    else {
+			    for (var i = 0; i < nomeArquivo.length; i++) {
+			    	if((nomeArquivo.charAt(i) == '/') || (nomeArquivo.charAt(i) == '\\')) {			    		
+			    		posicaoBarra = i;
+			    	}
+			    }
+
+			    if (posicaoBarra >= 0)
+			    	nomeArquivo = nomeArquivo.slice(posicaoBarra+1, nomeArquivo.length);
+			    XML_FILE = nomeArquivo;
+			    CarregaDocXML();
+			}
+
+		}
+
+
+		/* Abre o arquivo XML e chama uma funcao para fazer a sua validacao */
+		function CarregaDocXML() {
+			xmlRequestGlobal = new XMLHttpRequest();
+
+			/* xmlRequestGlobalRequest é um objeto JavaScript  usado para recuperar de um 
+			   modo facil dados de uma URL. Ao contrario do que o nome sugere, 
+			   xmlRequestGlobalRequest pode ser usado para recuperar qualquer tipo de dados, 
+			   e nao apenas XML. Ele possui suporte tambem para outros protocolos 
+			   alem do HTTP (incluindo os protocolos file e ftp ). */
+
+			xmlRequestGlobal.open("GET", XML_FILE, false);
+			xmlRequestGlobal.send();
+			if (xmlRequestGlobal.responseXML == null)
+				alert("O arquivo fornecido não é um XML bem formado.");
+			else {
+				ValidaDocXML();
+			}
+		}
+
+
+		/* Faz a validacao de um doc XML passado como parametro
+		   conforme o XML Schema em XMLSCHEMA_FILE; 
+		   caso o doc seja valido, chama a funcao que exibira 
+		   o seu conteudo. */
+		function ValidaDocXML() {
+			var xsdRequest = new XMLHttpRequest();
+
+			xsdRequest.open("GET", XMLSCHEMA_FILE, false);
+			xsdRequest.send();
+
+			var resposta = ValidaEsquema(xmlRequestGlobal.responseText,xsdRequest.responseText);
+
+			if (resposta != null) 
+		 	/* Doc XML nao tem uma estrutura valida segundo o 
+			   esquema XML Schema definido como base*/
+		
+				/* Exibe mensagem de erro */
+				alert("O arquivo fornecido nao possui o formato esperado! \nProblema: " + resposta);
+			else
+				MostraConteudo();
+
+			return resposta;
+		}
+
+		/* Recebe uma string contendo um doc XML e outra contendo
+		   um esquema em XML Schema;  verifica a validade do documento 
+		   segundo o esquema. 
+		   Se o documento eh valido, devolve null. Senao, devolve
+		   uma string com o erro encontrado do documento XML. */
+		function ValidaEsquema(strDocXML,strDocXSD) {
+
+			/* cria objeto que sera passado para a funcao de validacao */
+			var modulo = {
+				xml: strDocXML,   /* conteudo do doc XML a ser validado */
+				schema: strDocXSD, /* conteudo do arquivo XSD com o esquema */
+				arguments: ["--noout", "--schema", XMLSCHEMA_FILE, XML_FILE]
+			};
+		     
+			/* Chama a funcao validateXML, um validador implementado na 
+			   biblioteca xmllint.js disponivel em 
+			   http://syssgx.github.com/xml.js/js/xmllint.js */
+			var resposta = validateXML(modulo);
+		    
+			if (resposta.match("fails to validate")) 
+				return resposta;
+			else
+				return null;
+		}
+
+		/* Exibe os dados do doc XML em um tabela 
+		   caso ele o doc esteja no formato esperado */
+		function MostraConteudo() {
+			var quantidadeCategorias;
+			var id = 0;
+
+			/* obtem arvore de elementos do documento XML */
+			var docXML = xmlRequestGlobal.responseXML  
+
+			var linhasTabela ="<tr><th>Categorias</th></tr>";
+
+			/* Executa uma consulta em XPath no documento XML */
+			var consultaXPath = "//channel/item";
+			var todosItens = docXML.evaluate(consultaXPath, docXML, null, XPathResult.ANY_TYPE, null);
+
+			/* Para cada elemento item devolvido na consulta, exibe como uma
+			   nova linha na tabela os valores do elemento categoria */
+			var umItem = todosItens.iterateNext();
+			while (umItem) {				
+				quantidadeCategorias = umItem.getElementsByTagName("category").length;
+				for (i = 0; i < quantidadeCategorias; i++) {
+					if (!linhasTabela.includes(umItem.getElementsByTagName("category")[i].childNodes[0].nodeValue)) {
+						linhasTabela += "<tr><td><a  href=\"#\" onclick=\"mostraTitulos(" + id + ")\">"							
+							+ umItem.getElementsByTagName("category")[i].childNodes[0].nodeValue + 
+							"</a></td></tr>";
+							categorias.push(umItem.getElementsByTagName("category")[i].childNodes[0].nodeValue);
+							id++;
+					}
+						
+				}
+				umItem = todosItens.iterateNext();
+			}
+
+			document.getElementById("categorias").innerHTML = linhasTabela;
+		}
+
+		function mostraTitulos(id) {
+			var quantidadeCategorias;
+
+			/* obtem arvore de elementos do documento XML */
+			var docXML = xmlRequestGlobal.responseXML  
+
+			var linhasTabela ="<tr><th>Título</th><th>Link</th></tr>";
+
+			/* Executa uma consulta em XPath no documento XML */
+			var consultaXPath = "//channel/item";
+			var todosItens = docXML.evaluate(consultaXPath, docXML, null, XPathResult.ANY_TYPE, null);
+
+			/* Para cada elemento item devolvido na consulta, exibe como uma
+			   nova linha na tabela os valores do elemento categoria */
+			var umItem = todosItens.iterateNext();
+			while (umItem) {				
+				quantidadeCategorias = umItem.getElementsByTagName("category").length;
+				for (i = 0; i < quantidadeCategorias; i++) {
+					if (categorias[id] == umItem.getElementsByTagName("category")[i].childNodes[0].nodeValue) {
+						linhasTabela += "<tr><td>" + umItem.getElementsByTagName("title")[0].childNodes[0].nodeValue + 
+						"</td><td><a  href=\"" + umItem.getElementsByTagName("link")[0].childNodes[0].nodeValue + "\">link</a></td></tr>";
+					}
+						
+				}
+				umItem = todosItens.iterateNext();
+			}
+
+			document.getElementById("titulosLinks").innerHTML = linhasTabela;
+
+
+
+		}
+
+		</script>
+		<script src="http://syssgx.github.com/xml.js/js/xmllint.js"></script>
+		
+	</body>
+</html>

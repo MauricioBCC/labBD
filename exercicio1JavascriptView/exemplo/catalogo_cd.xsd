@@ -1,0 +1,22 @@
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+    <xs:element name="CATALOGO" type="tCatalogo"/> 
+
+    <xs:complexType name="tCatalogo"> 
+        <xs:sequence> 
+            <xs:element name="CD" type="tCD" minOccurs="1" maxOccurs="unbounded"/> 
+        </xs:sequence> 
+    </xs:complexType> 
+
+
+    <xs:complexType name="tCD"> 
+        <xs:sequence> 
+            <xs:element name="TITULO" type="xs:string"/> 
+	    <xs:element name="ARTISTA" type="xs:string"/> 
+	    <xs:element name="PAIS" type="xs:string"/> 
+            <xs:element name="GRAVADORA" type="xs:string" minOccurs="0"/> 
+	    <xs:element name="PRECO" type="xs:decimal"/> 
+	    <xs:element name="ANO" type="xs:integer" minOccurs="0"/> 
+        </xs:sequence> 
+    </xs:complexType> 
+</xs:schema>   

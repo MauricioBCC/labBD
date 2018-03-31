@@ -1,0 +1,590 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Technology</title>
+    <link>https://www.nytimes.com/section/technology?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/Technology.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Fri, 02 Mar 2018 03:06:38 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Technology</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/technology?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Bit by Bit, Whole Foods Gets an Amazon Touch</title>
+      <link>https://www.nytimes.com/2018/03/01/technology/bit-by-bit-whole-foods-gets-an-amazon-touch.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/technology/bit-by-bit-whole-foods-gets-an-amazon-touch.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/technology/bit-by-bit-whole-foods-gets-an-amazon-touch.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/27/business/28WHOLEFOODS-1/28WHOLEFOODS-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Whole Foods flagship store, in Austin, Tex., has many of the new changes Amazon has made to the grocery chain. </media:description>
+      <media:credit>Drew Anthony Smith for The New York Times</media:credit>
+      <description>It has been six months since Amazon took over Whole Foods for $13.4 billion. Here are a handful of notable changes Amazon has made to Whole Foods so far.</description>
+      <dc:creator>NICK WINGFIELD</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 21:59:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Whole Foods Market Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Supermarkets and Grocery Stores</category>
+    </item>
+    <item>
+      <title>Spotify Files to Go Public on the New York Stock Exchange</title>
+      <link>https://www.nytimes.com/2018/02/28/business/media/spotify-ipo.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/business/media/spotify-ipo.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/business/media/spotify-ipo.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/business/01SPOTIFY1/01SPOTIFY1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Daniel Ek, the chief executive and a co-founder of Spotify. According to a company filing, Spotify had nearly $5 billion in revenue last year, up 39 percent from the year before.</media:description>
+      <media:credit>Don Emmert/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>Instead of a traditional public offering, the streaming music service will pursue a direct listing of its shares, which will be traded under the ticker symbol SPOT.</description>
+      <dc:creator>BEN SISARIO</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 15:26:42 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Spotify</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Initial Public Offerings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Audio Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+    </item>
+    <item>
+      <title>Tech Fix: Should You Get a Cheaper Phone? Be Sure to Look Into the Camera</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/personaltech/cheaper-smartphone.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/personaltech/cheaper-smartphone.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/technology/personaltech/cheaper-smartphone.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/01TECHFIX-3/01TECHFIX-3-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>George Zhao of Huawei discussing its Honor smartphones in London in December. The $200 Honor 7X was a runner-up budget pick by Wirecutter.</media:description>
+      <media:credit>Joe Maher/Getty Images for Honor UK</media:credit>
+      <description>The most popular smartphones can cost $700 or more. But for roughly $200, you can have a model that isn&#x2019;t cutting edge but is plenty capable.</description>
+      <dc:creator>BRIAN X. CHEN</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 14:40:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cameras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Android (Operating System)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">iPhone</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Apple Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Samsung Electronics Co</category>
+    </item>
+    <item>
+      <title>Tech We&#x2019;re Using: Mexico Has Its Spyware. A Reporter Has a Few Phones to Juggle.</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/technology/personaltech/keeping-communications-secure-mexico.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/29TECHUSING-1/29TECHUSING-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Azam Ahmed, the chief of The New York Times&#x2019;s Mexico bureau, talking with an editor on a satellite phone while reporting from a remote Haitian village after Hurricane Matthew in 2016.</media:description>
+      <media:credit>Meridith Kohut for The New York Times</media:credit>
+      <description>Our Mexico bureau chief, Azam Ahmed, uses various strategies to keep communications safe while reporting, including the low-tech tactic of in-person meetings.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 05:52:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Waze Mobile</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">PayPal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Signal (Open Whisper Systems)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Mexico</category>
+    </item>
+    <item>
+      <title>Facebook Lets Ads Bare a Man&#x2019;s Chest. A Woman&#x2019;s Back Is Another Matter. </title>
+      <link>https://www.nytimes.com/2018/03/01/business/media/facebook-ads-gender.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/business/media/facebook-ads-gender.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/business/media/facebook-ads-gender.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/16/business/00FACEBOOKADS-COMBO/00FACEBOOKADS-COMBO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Facebook mistakenly told Krista Venero, who writes under the pen name K.L. Montgomery, that the top image violated its policy against adult content in ads. The second ad, which she pointed out to Facebook, does not.</media:description>
+      <media:credit>Krista Venero</media:credit>
+      <description>Advertisers, especially smaller ones, complain of inconsistency and gender bias in the process that determines whether images are rejected for being sexually suggestive.</description>
+      <dc:creator>SAPNA MAHESHWARI and SHEERA FRENKEL</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 22:00:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gender</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex</category>
+    </item>
+    <item>
+      <title>Trilobites: When Did Americans Stop Marrying Their Cousins? Ask the World&#x2019;s Largest Family Tree</title>
+      <link>https://www.nytimes.com/2018/03/01/science/cousins-marriage-family-tree.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/science/cousins-marriage-family-tree.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/science/cousins-marriage-family-tree.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/science/01tb-family-lead/01tb-family-lead-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A blank family record from 1889.</media:description>
+      <media:credit>Library of Congress</media:credit>
+      <description>Researchers assembled 5 million family trees using data from the website Geni.com to test several genetic and historical hypotheses.</description>
+      <dc:creator>STEPH YIN</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 19:00:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genealogy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Marriages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Data-Mining and Database Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Population</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Geni.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Science (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Canada</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">North America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Erlich, Yanev</category>
+    </item>
+    <item>
+      <title>Facebook to End News Feed Experiment in 6 Countries That Magnified Fake News</title>
+      <link>https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/technology/facebook-end-news-feed-experiment-six-countries-that-magnified-fake-news.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/02/business/02FACEBOOK1/02FACEBOOK1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A booth at Facebook&#x2019;s annual F8 developer conference in San Jose, Calif. The social network is stopping the experiment known as Explore, which separates news publishers from its main site.</media:description>
+      <media:credit>Noah Berger/Associated Press</media:credit>
+      <description>The social network is ending Explore, an experiment in countries like Bolivia and Cambodia, where it had separated news and other publishers from its main site.</description>
+      <dc:creator>SHEERA FRENKEL</dc:creator>
+      <pubDate>Fri, 02 Mar 2018 03:06:10 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+    </item>
+    <item>
+      <title>Rites of Passage: Hi Hi Good Morning Hi I Love You It&#x2019;s Me</title>
+      <link>https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/03/01/style/good-morning-whatsapp.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/22/style/00gm-1/00gm-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Illustration by Tracy Ma/The New York Times</media:description>
+      <media:credit/>
+      <description>WhatsApp connects families around the world in amazing ways, and also is a complete nightmare.</description>
+      <dc:creator>YONETTE JOSEPH</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 22:07:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Instant Messaging</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Guyana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">WhatsApp Inc</category>
+    </item>
+    <item>
+      <title>Tech Tip: How to Get Your Tweet Fix Now That Twitter&#x2019;s Mac App Is Dead</title>
+      <link>https://www.nytimes.com/2018/03/01/technology/personaltech/how-to-get-your-tweet-fix-now-that-twitters-mac-app-is-dead.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/03/01/technology/personaltech/how-to-get-your-tweet-fix-now-that-twitters-mac-app-is-dead.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/03/01/technology/personaltech/how-to-get-your-tweet-fix-now-that-twitters-mac-app-is-dead.html?partner=rss&amp;emc=rss"/>
+      <description>Twitter will stop supporting its official app for Mac computers in mid-March, but you can find alternatives that offer plenty of features.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 14:00:25 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mac OS (Operating System)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Software</category>
+    </item>
+    <item>
+      <title>Why This Tech Executive Says Her Plan to Disrupt Education Is Different</title>
+      <link>https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/world/australia/school-tech-lumineer-academy-susan-wu.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/14/world/00oz-school-1/00oz-school-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Students at Lumineer Academy in Williamstown, Australia. The school uses an alternative learning model based on technology businesses.</media:description>
+      <media:credit>Asanka Brendon Ratnayake for The New York Times</media:credit>
+      <description>Susan Wu, a Silicon Valley entrepreneur, has opened a school in Australia.</description>
+      <dc:creator>ADAM BAIDAWI</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 03:30:56 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Education</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Melbourne (Australia)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Susan Wu</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">For-Profit Schools</category>
+    </item>
+    <item>
+      <title>Subpoenas Signal S.E.C. Crackdown on Initial Coin Offerings</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/initial-coin-offerings-sec.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/initial-coin-offerings-sec.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/28/technology/initial-coin-offerings-sec.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/autossell/01ico/01ico-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jay Clayton, chairman of the Securities and Exchange Commission, has said he asked his agency to go after companies that sell virtual currencies and the &#x201C;gatekeepers&#x201D; that help them.</media:description>
+      <media:credit>Erin Schaff for The New York Times</media:credit>
+      <description>Regulators are believed to have demanded information from as many as 80 people and companies associated with virtual currencies.</description>
+      <dc:creator>NATHANIEL POPPER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 03:08:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Subpoenas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Virtual Currency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Securities and Exchange Commission</category>
+    </item>
+    <item>
+      <title>Is Bitcoin a Waste of Electricity, or Something Worse?</title>
+      <link>https://www.nytimes.com/2018/02/28/business/economy/bitcoin-electricity-productivity.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/business/economy/bitcoin-electricity-productivity.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/business/economy/bitcoin-electricity-productivity.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/01/business/01DC-BITINVEST1/01DC-BITINVEST1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tom Pillsworth, right, whose company operates and maintains Bitcoin machines located at a former paper warehouse in Plattsburgh, N.Y.</media:description>
+      <media:credit>Jacob Hannah for The New York Times</media:credit>
+      <description>America has a productivity problem. One explanation may be the growing use of real resources to make virtual products.</description>
+      <dc:creator>BINYAMIN APPELBAUM</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 00:17:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bitcoin (Currency)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Electric Light and Power</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Productivity</category>
+    </item>
+    <item>
+      <title>Facebook&#x2019;s &#x201C;Cat and Mouse Game&#x201D;</title>
+      <link>https://www.nytimes.com/video/technology/100000005744020/facebooks-cat-and-mouse-game.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/technology/100000005744020/facebooks-cat-and-mouse-game.html</guid>
+      <description>Facebook C.T.O. Mike Schroepfer, speaking at The New York Times&#x2019;s New Work Summit, explained how artificial intelligence helps the social media giant tackle the constantly evolving threat of dangerous and offensive content.</description>
+      <dc:creator/>
+      <pubDate>Wed, 28 Feb 2018 20:22:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Social Media</category>
+    </item>
+    <item>
+      <title>Paul Allen Wants to Teach Machines Common Sense</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/paul-allen-ai-common-sense.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/paul-allen-ai-common-sense.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/technology/paul-allen-ai-common-sense.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/01paulallenai/01paulallenai-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;To make real progress in A.I., we have to overcome the big challenges in the area of common sense,&#x201D; said Paul Allen, who founded Microsoft in the 1970s with Bill Gates.</media:description>
+      <media:credit>B&#xE9;atrice de G&#xE9;a for The New York Times</media:credit>
+      <description>The Microsoft co-founder will give $125 million to his nonprofit research lab to help develop technology that adds common sense to artificial intelligence.</description>
+      <dc:creator>CADE METZ</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 00:30:57 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Allen, Paul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Allen Institute for Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Research</category>
+    </item>
+    <item>
+      <title>Tech Tip: You Dumped Facebook. So Why Does It Keep Sending You Emails?</title>
+      <link>https://www.nytimes.com/2018/02/28/technology/personaltech/deleting-facebook-account-completely.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/28/technology/personaltech/deleting-facebook-account-completely.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/28/technology/personaltech/deleting-facebook-account-completely.html?partner=rss&amp;emc=rss"/>
+      <description>If you&#x2019;re still receiving &#x201C;Welcome back to Facebook&#x201D; messages, you may not have fully closed your account on the social network.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 14:00:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+    </item>
+    <item>
+      <title>Flying Taxis May Be Years Away, but the Groundwork Is Accelerating</title>
+      <link>https://www.nytimes.com/2018/02/27/technology/flying-taxis.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/27/technology/flying-taxis.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/27/technology/flying-taxis.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/28FLYINGTAXI-1/28FLYINGTAXI-1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>A prototype from Lilium, a German air taxi company that has raised $90 million from investors.</media:description>
+      <media:credit>Lilium</media:credit>
+      <description>As in the early days of self-driving cars, companies are digging in now so they aren&#x2019;t left behind later. Just don&#x2019;t call the aircraft &#x201C;flying cars.&#x201D;</description>
+      <dc:creator>DAISUKE WAKABAYASHI</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 02:00:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Flying Cars</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drones (Pilotless Planes)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Airbus Industrie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Blade Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Aurora Flight Sciences Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Kitty Hawk, Incorporated</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uber Technologies Inc</category>
+    </item>
+    <item>
+      <title>Amazon Buys Ring, Maker of Smart Home Products</title>
+      <link>https://www.nytimes.com/2018/02/27/business/dealbook/amazon-buys-ring.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/27/business/dealbook/amazon-buys-ring.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/27/business/dealbook/amazon-buys-ring.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/28/business/28ring_biz/28ring_biz-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Amazon was said to have paid more than $1 billion for Ring, which is best known for a doorbell with a security camera inside and is based in Santa Monica, Calif.</media:description>
+      <media:credit>Andrew Gombert/European Pressphoto Agency</media:credit>
+      <description>Amazon has made home automation a major focus because of the success of its Echo family of products.</description>
+      <dc:creator>NICK WINGFIELD</dc:creator>
+      <pubDate>Wed, 28 Feb 2018 00:51:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Amazon.com Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ring Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Home Automation and Smart Homes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cameras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+    </item>
+    <item>
+      <title>State of the Art: The Sublime and Scary Future of Cameras With A.I. Brains</title>
+      <link>https://www.nytimes.com/2018/02/27/technology/future-cameras-ai-brains.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/27/technology/future-cameras-ai-brains.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/27/technology/future-cameras-ai-brains.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/27/business/01STATE1/merlin_134632103_63e244ed-1c0b-408a-a64d-263e43f12884-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Doug Chayka</media:credit>
+      <description>A new generation of cameras like Google&#x2019;s new Clips device can understand what they see, creating intriguing and sometimes eerie possibilities.</description>
+      <dc:creator>FARHAD MANJOO</dc:creator>
+      <pubDate>Tue, 27 Feb 2018 19:58:26 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cameras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Vision</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computer Security</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Lighthouse AI Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Privacy</category>
+    </item>
+    <item>
+      <title>Tech Tip: How to Monitor Cellular Data Use for Apps</title>
+      <link>https://www.nytimes.com/2018/02/27/technology/personaltech/monitor-cellular-data.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/27/technology/personaltech/monitor-cellular-data.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/27/technology/personaltech/monitor-cellular-data.html?partner=rss&amp;emc=rss"/>
+      <description>To see which apps are grabbing the most data, peek into your device&#x2019;s settings or fire up a software meter.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Tue, 27 Feb 2018 14:44:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wireless Communications</category>
+    </item>
+    <item>
+      <title>On Technology: How Tiny Red Dots Took Over Your Life</title>
+      <link>https://www.nytimes.com/2018/02/27/magazine/red-dots-badge-phones-notification.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/27/magazine/red-dots-badge-phones-notification.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/27/magazine/red-dots-badge-phones-notification.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/04/magazine/04mag-ontech2/04mag-04ontech-t_CA0-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Illustration by Jon Han</media:credit>
+      <description>Technologists are starting to fret that their creations are too addictive. They could start by doing something about the dots.</description>
+      <dc:creator>JOHN HERRMAN</dc:creator>
+      <pubDate>Tue, 27 Feb 2018 10:01:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Apple Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jobs, Steven P</category>
+    </item>
+    <item>
+      <title>California Scraps Safety Driver Rules for Self-Driving Cars</title>
+      <link>https://www.nytimes.com/2018/02/26/technology/driverless-cars-california-rules.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/26/technology/driverless-cars-california-rules.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/26/technology/driverless-cars-california-rules.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/27/us/27driverless/27driverless-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A driverless car on the streets of Mountain View, Calif. The state&#x2019;s Department of Motor Vehicles said it is eliminating a requirement for autonomous vehicles to have a person in the driver&#x2019;s seat.</media:description>
+      <media:credit>Google, via Associated Press</media:credit>
+      <description>The new regulations in Silicon Valley&#x2019;s home state are expected to help the wider deployment of autonomous vehicles.</description>
+      <dc:creator>DAISUKE WAKABAYASHI</dc:creator>
+      <pubDate>Tue, 27 Feb 2018 02:32:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Traffic Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Alphabet Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uber Technologies Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Waymo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+    </item>
+    <item>
+      <title>Op-Ed Contributor: Can the United States Search Data Overseas?</title>
+      <link>https://www.nytimes.com/2018/02/26/opinion/united-states-searching-data-overseas.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/26/opinion/united-states-searching-data-overseas.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/26/opinion/united-states-searching-data-overseas.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/27/opinion/27Newman/27Newman-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Illustration by Jeffrey Henson Scales/The New York Times, images by, Darko Labor/EyeEm, Andrzej Wojcick/Science Photo Library, and Martin Barraud, via Getty Images</media:credit>
+      <description>A Supreme Court case asks where the government&#x2019;s right to examine digital evidence ends.</description>
+      <dc:creator>CRAIG A. NEWMAN</dc:creator>
+      <pubDate>Mon, 26 Feb 2018 23:55:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data Storage</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Search and Seizure</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Fourth Amendment (US Constitution)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Privacy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Data Centers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+    </item>
+    <item>
+      <title>Kratsios: Let's Not Rest on Our Laurels</title>
+      <link>https://www.nytimes.com/video/technology/100000005744114/kratsios-lets-not-rest-on-our-laurels.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/technology/100000005744114/kratsios-lets-not-rest-on-our-laurels.html</guid>
+      <description>Speaking at The New York Times&#x2019;s New Work Summit, Deputy U.S. Chief Technology Officer Michael Kratsios said the U.S. is still leading China in artificial intelligence, but needs to keep pushing ahead.</description>
+      <dc:creator/>
+      <pubDate>Mon, 26 Feb 2018 17:36:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Science and Technology</category>
+    </item>
+    <item>
+      <title>Richard Yu on Huawei Phone Restrictions</title>
+      <link>https://www.nytimes.com/video/admin/100000005766029/richard-yu-on-huawei-phone-restrictions.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/admin/100000005766029/richard-yu-on-huawei-phone-restrictions.html</guid>
+      <description>Huawei C.E.O. Consumer Business Group Richard Yu spoke about challenges of expanding his product into the U.S. market at The New York Times&#x2019;s 2018 New Work Summit.</description>
+      <dc:creator/>
+      <pubDate>Mon, 26 Feb 2018 16:41:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/des">Telephones and Telecommunications</category>
+      <category domain="http://www.nytimes.com/namespaces/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/des">Regulation and Deregulation of Industry</category>
+    </item>
+    <item>
+      <title>Tech Tip: Wireless (or Wired) Chromebook Printing</title>
+      <link>https://www.nytimes.com/2018/02/26/technology/personaltech/wireless-or-wired-chromebook-printing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/26/technology/personaltech/wireless-or-wired-chromebook-printing.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/26/technology/personaltech/wireless-or-wired-chromebook-printing.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>Those lightweight laptops running Google&#x2019;s Chrome OS operating system can work with certain types of printer models.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Mon, 26 Feb 2018 15:29:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Printers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wireless Communications</category>
+    </item>
+    <item>
+      <title>Women in Cryptocurrencies Push Back Against &#x2018;Blockchain Bros&#x2019;</title>
+      <link>https://www.nytimes.com/2018/02/25/business/cryptocurrency-women-blockchain-bros.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/25/business/cryptocurrency-women-blockchain-bros.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/25/business/cryptocurrency-women-blockchain-bros.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/26/business/26CRYPTOWOMEN1/26CRYPTOWOMEN1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Abbey Lossing</media:credit>
+      <description>Cryptocurrencies and blockchain were meant to be great equalizers. Instead, women are finding that the gold rush is already stacked against them.</description>
+      <dc:creator>NELLIE BOWLES</dc:creator>
+      <pubDate>Sun, 25 Feb 2018 23:19:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Virtual Currency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bitcoin (Currency)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Venture Capital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Careers and Professions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+    </item>
+    <item>
+      <title>How Companies Scour Our Digital Lives for Clues to Our Health</title>
+      <link>https://www.nytimes.com/2018/02/25/technology/smartphones-mental-health.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/25/technology/smartphones-mental-health.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/25/technology/smartphones-mental-health.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/26/business/19Exhaust/19Exhaust-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Matt Chase</media:credit>
+      <description>An emerging field, digital phenotyping, tries to assess people&#x2019;s well-being based on their interactions with digital devices.</description>
+      <dc:creator>NATASHA SINGER</dc:creator>
+      <pubDate>Thu, 01 Mar 2018 15:47:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mobile Applications</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Data-Mining and Database Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+    </item>
+    <item>
+      <title>Tech Envisions the Ultimate Start-Up: An Entire City</title>
+      <link>https://www.nytimes.com/2018/02/24/upshot/tech-envisions-the-ultimate-start-up-an-entire-city.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/24/upshot/tech-envisions-the-ultimate-start-up-an-entire-city.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/24/upshot/tech-envisions-the-ultimate-start-up-an-entire-city.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/25/opinion/sunday/25upshot/25upshot-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Rob Pybus</media:credit>
+      <description>Silicon Valley wants to save cities. What could go wrong?</description>
+      <dc:creator>EMILY BADGER</dc:creator>
+      <pubDate>Sat, 24 Feb 2018 12:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Urban Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Area Planning and Renewal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco Bay Area (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Entrepreneurship</category>
+    </item>
+    <item>
+      <title>Facebook and Google Struggle to Squelch &#x2018;Crisis Actor&#x2019; Posts</title>
+      <link>https://www.nytimes.com/2018/02/23/technology/trolls-step-ahead-facebook-youtube-florida-shooting.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/technology/trolls-step-ahead-facebook-youtube-florida-shooting.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/23/technology/trolls-step-ahead-facebook-youtube-florida-shooting.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/24/business/24MISINFO-2/24MISINFO-2-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A video that said David Hogg, a survivor of the Parkland, Fla., school shooting, was a paid actor became a No. 1 trending video on YouTube this week.</media:description>
+      <media:credit>Saul Martinez for The New York Times</media:credit>
+      <description>The tech companies vowed this week to stamp out conspiracy videos and misinformation on the Parkland, Fla., shooting. So far, they are falling short.</description>
+      <dc:creator>JACK NICAS and SHEERA FRENKEL</dc:creator>
+      <pubDate>Sat, 24 Feb 2018 00:30:38 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Parkland, Fla, Shooting (2018)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">School Shootings and Armed Attacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Marjory Stoneman Douglas High School (Parkland, Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hogg, David</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">YouTube.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rumors and Misinformation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cyberharassment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Parkland (Fla)</category>
+    </item>
+    <item>
+      <title>Dropbox Files for I.P.O., and Other &#x2018;Unicorns&#x2019; Are Watching</title>
+      <link>https://www.nytimes.com/2018/02/23/technology/dropbox-files-for-ipo-and-other-unicorns-are-watching.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/technology/dropbox-files-for-ipo-and-other-unicorns-are-watching.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/23/technology/dropbox-files-for-ipo-and-other-unicorns-are-watching.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/24/business/24DROPBOX1/24DROPBOX1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Drew Houston, chief executive of Dropbox, which was most recently valued at about $10 billion by private-market investors.</media:description>
+      <media:credit>David Paul Morris/Bloomberg</media:credit>
+      <description>The online file storage company, part of a group of highly valued start-ups known as &#x201C;unicorns,&#x201D; said it planned to raise up to $500 million in a public offering.</description>
+      <dc:creator>NICK WINGFIELD and MATT PHILLIPS</dc:creator>
+      <pubDate>Sat, 24 Feb 2018 01:28:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Dropbox Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Initial Public Offerings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Houston, Andrew W</category>
+    </item>
+    <item>
+      <title>Plumbing Problem Shows Powers and Limits of 3 Tax Programs</title>
+      <link>https://www.nytimes.com/2018/02/23/business/plumbing-problem-shows-powers-and-limits-of-3-tax-programs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/business/plumbing-problem-shows-powers-and-limits-of-3-tax-programs.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/02/23/business/plumbing-problem-shows-powers-and-limits-of-3-tax-programs.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/25/business/25SOFT1/25SOFT1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The leading online tax-return preparation programs make the routine parts of doing your taxes easy. But when complexities arise, you can still wind up fretting over Internal Revenue Service rules.</media:description>
+      <media:credit>Alamy</media:credit>
+      <description>TurboTax, H&amp;R Block and TaxAct all make filing easier, but they left our reviewer confused about what the I.R.S. would accept and what it would not.</description>
+      <dc:creator>TIM GRAY</dc:creator>
+      <pubDate>Fri, 23 Feb 2018 22:35:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Preparers and Preparation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tax Credits, Deductions and Exemptions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Home Repairs and Improvements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">H&amp;R Block Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">TaxACT Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">TurboTax</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Income Tax</category>
+    </item>
+    <item>
+      <title>Tech Tip: Organizing Pictures With Words</title>
+      <link>https://www.nytimes.com/2018/02/23/technology/personaltech/organizing-pictures-with-words.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/technology/personaltech/organizing-pictures-with-words.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/23/technology/personaltech/organizing-pictures-with-words.html?partner=rss&amp;emc=rss"/>
+      <description>Tagging photos with keywords allows you to quickly search for specific images based on what is shown in them.</description>
+      <dc:creator>J. D. BIERSDORFER</dc:creator>
+      <pubDate>Fri, 23 Feb 2018 14:00:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cameras</category>
+    </item>
+    <item>
+      <title>Bits: Dai and Jack&#x2019;s Week in Tech: Don&#x2019;t Trust the Internet</title>
+      <link>https://www.nytimes.com/2018/02/23/technology/dai-and-jacks-week-in-tech-dont-trust-the-internet.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/technology/dai-and-jacks-week-in-tech-dont-trust-the-internet.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/23/technology/dai-and-jacks-week-in-tech-dont-trust-the-internet.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/23/business/23TECHNEWSLETTER1/23TECHNEWSLETTER1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Jack Nicas, The Times&#x2019;s new Apple reporter, visited the new Apple campus this week.</media:description>
+      <media:credit>Kyodo News, via Getty Images</media:credit>
+      <description>Why the internet is full of lies and why the problem isn&#x2019;t getting fixed are big questions few in the tech industry seem eager to answer.</description>
+      <dc:creator>DAISUKE WAKABAYASHI and JACK NICAS</dc:creator>
+      <pubDate>Fri, 23 Feb 2018 14:00:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Twitter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">YouTube.com</category>
+    </item>
+    <item>
+      <title>U.S. Blocks a Chinese Deal Amid Rising Tensions Over Technology</title>
+      <link>https://www.nytimes.com/2018/02/23/technology/china-microchips-cfius-xcerra.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/02/23/technology/china-microchips-cfius-xcerra.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/02/23/technology/china-microchips-cfius-xcerra.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/02/24/world/24cfius/24cfius-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Robots at an automobile plant in the Chinese city of Hangzhou. China wants to use state support and overseas acquisitions to dominate high-tech fields like big data, advanced robotics and electric cars.</media:description>
+      <media:credit>Giulia Marchi for The New York Times</media:credit>
+      <description>A maker of chip-testing equipment, Xcerra, said it was walking away from a proposed sale to a Chinese group because of regulatory concerns.</description>
+      <dc:creator>RAYMOND ZHONG</dc:creator>
+      <pubDate>Sat, 24 Feb 2018 04:27:50 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Xcerra Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+    </item>
+  </channel>
+</rss>
+
