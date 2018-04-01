@@ -1,3 +1,8 @@
+/* Mauricio Luiz Abreu Cardoso nusp: 6796479 */
+
+/* Observacao: o nome "professor" nao foi incluso na relacao "turma", e sim 
+ na relacao "ministra", para que uma disciplina possa ter varios professores*/
+
 CREATE DOMAIN tipo_cpf AS CHAR(11);
 
 CREATE TABLE professor (
@@ -48,8 +53,9 @@ CREATE TABLE turma (
 	ano INT,
 	codigo_disciplina INT,
 	id_aluno INT NOT NULL,
-	nota INT NOT NULL CHECK (nota >= 0 AND nota <= 10),
+	nota DECIMAL(2,2) NOT NULL,
 	frequencia INT NOT NULL,
+	CONSTRAINT nota0a10 CHECK (nota >= 0 AND nota <= 10),
 	PRIMARY KEY(id_turma, semestre, ano, codigo_disciplina),
 	FOREIGN KEY(codigo_disciplina) REFERENCES disciplina(codigo_disciplina) ON DELETE RESTRICT,
 	FOREIGN KEY(id_aluno) REFERENCES aluno(id_aluno)
