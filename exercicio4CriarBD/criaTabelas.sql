@@ -1,19 +1,18 @@
 CREATE DOMAIN tipo_cpf AS CHAR(11);
 
-CREATE TABLE titulo_professor (
-	titulo VARCHAR(50),
-	nusp_prof INT,
-	PRIMARY KEY(titulo, nusp_prof)
-	FOREIGN KEY(nusp_prof) REFERENCES professor(nusp),
-	CHECK (titulo IN ('Doutorado','Mestrado','Especialização','Bacharelado',
-		'Licenciatura','Graduação Tecnológica'))
-);
-
 CREATE TABLE professor (
 	nusp INT PRIMARY KEY,
 	cpf tipo_cpf NOT NULL,
-	nome VARCHAR(50)NOT NULL,
+	nome VARCHAR(50) NOT NULL,
 	sala VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE titulo_professor (
+	titulo VARCHAR(50),
+	nusp_prof INT,
+	PRIMARY KEY(titulo, nusp_prof),
+	FOREIGN KEY(nusp_prof) REFERENCES professor(nusp),
+	CHECK (titulo IN ('Doutorado','Mestrado','Especialização','Bacharelado', 'Licenciatura','Graduação Tecnológica'))
 );
 
 CREATE TABLE aluno (
@@ -24,7 +23,7 @@ CREATE TABLE aluno_regular (
 	nusp INT PRIMARY KEY,
 	cpf tipo_cpf NOT NULL,
 	nome VARCHAR(50) NOT NULL,
-	curso VARCHAR(50) DEFAULT 'Bacharelado em Ciência da Computação'
+	curso VARCHAR(50) DEFAULT 'Bacharelado em Ciência da Computação',
 	nusp_orientador INT NOT NULL,
 	id_aluno INT NOT NULL,
 	FOREIGN KEY(nusp_orientador) REFERENCES professor(nusp),
@@ -52,7 +51,7 @@ CREATE TABLE turma (
 	nota INT NOT NULL CHECK (nota >= 0 AND nota <= 10),
 	frequencia INT NOT NULL,
 	PRIMARY KEY(id_turma, semestre, ano, codigo_disciplina),
-	FOREIGN KEY(codigo_disciplina) REFERENCES disciplina(codigo_disciplina),
+	FOREIGN KEY(codigo_disciplina) REFERENCES disciplina(codigo_disciplina) ON DELETE RESTRICT,
 	FOREIGN KEY(id_aluno) REFERENCES aluno(id_aluno)
 );
 
@@ -71,5 +70,6 @@ CREATE TABLE ministra (
 CREATE TABLE disc_pre_requisito (
 	id_disciplina INT,
 	id_disciplina_requisito INT,
-	PRIMARY KEY(id_disciplina, id_disciplina_requisito)
+	PRIMARY KEY(id_disciplina, id_disciplina_requisito),
+	FOREIGN KEY(id_disciplina) REFERENCES disciplina(codigo_disciplina) ON DELETE CASCADE ON UPDATE CASCADE
 );
