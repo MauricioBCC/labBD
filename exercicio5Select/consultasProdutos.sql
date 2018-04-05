@@ -52,3 +52,22 @@ que não vendem impressoras por mais de R$300,00. */
  UNION (SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo AND Laptop.preco > 2000))
 EXCEPT (SELECT fabricante FROM Produto, Impressora WHERE  Produto.modelo = Impressora.modelo AND Impressora.preco <= 300);
 
+/* m) Liste os fabricantes que vendem mais modelos de PCs do que de laptops. */
+(SELECT fabricante FROM Produto, PC WHERE  Produto.modelo = PC.modelo) EXCEPT ALL
+(SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo);
+
+/* n) Liste os fabricantes que vendem a mesma quantidade de modelos de PCs e de laptops. */
+/* Solução baseada em A inter B = n(A U B) - n(A|B) - n(B|A) */ 
+SELECT DISTINCT fabricante FROM
+(((SELECT fabricante FROM Produto, PC WHERE  Produto.modelo = PC.modelo) UNION ALL
+(SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo))
+ EXCEPT ALL
+((SELECT fabricante FROM Produto, PC WHERE  Produto.modelo = PC.modelo) EXCEPT ALL
+(SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo)) UNION ALL
+((SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo) EXCEPT ALL
+(SELECT fabricante FROM Produto, PC WHERE  Produto.modelo = PC.modelo))) aliasPostgresExige;
+
+
+/* o) Liste os fabricantes que vendem todos os tipos de impressoras que aparecem na relação
+Impressora. */
+
