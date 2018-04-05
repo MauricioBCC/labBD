@@ -46,4 +46,9 @@ SELECT lap1.modelo, lap2.modelo FROM Laptop lap1, Laptop lap2 WHERE lap1.velocid
  UNION (SELECT fabricante, Produto.modelo, preco FROM Produto, Impressora WHERE produto.modelo = Impressora.modelo)
  UNION (SELECT fabricante, Produto.modelo, preco FROM Produto, Laptop WHERE produto.modelo = Laptop.modelo);
 
+/* l) Liste os fabricantes que vendem computadores (PCs ou Laptops) por mais de R$2.000,00 mas
+que não vendem impressoras por mais de R$300,00. */
+((SELECT fabricante FROM Produto, PC WHERE  Produto.modelo = PC.modelo AND PC.preco > 2000)
+ UNION (SELECT fabricante FROM Produto, Laptop WHERE  Produto.modelo = Laptop.modelo AND Laptop.preco > 2000))
+EXCEPT (SELECT fabricante FROM Produto, Impressora WHERE  Produto.modelo = Impressora.modelo AND Impressora.preco <= 300);
 
