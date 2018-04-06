@@ -70,4 +70,6 @@ SELECT DISTINCT fabricante FROM
 
 /* o) Liste os fabricantes que vendem todos os tipos de impressoras que aparecem na relação
 Impressora. */
-
+(SELECT fabricante FROM Produto) EXCEPT
+(SELECT fabricante FROM ((SELECT fabricante, impTipoSemRep.tipo FROM (SELECT DISTINCT fabricante FROM Produto) fabSemRep, (SELECT DISTINCT tipo FROM Impressora) impTipoSemRep) 
+EXCEPT ALL (SELECT fabricante, Impressora.tipo FROM Produto, Impressora WHERE Produto.modelo = Impressora.modelo)) fabNaoVendeTodas);
