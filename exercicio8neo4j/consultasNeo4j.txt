@@ -1,0 +1,35 @@
+/* a) Para cada ator, devolva o seu ano de estreia em filmes. */
+MATCH (ator:Person)-[:ACTED_IN]->(filme:Movie)
+ RETURN ator.name, min(filme.released)
+
+/* b) Para cada pessoa no BD, devolva a sua lista de conhecidos (ou seja, pessoas que trabalharam em
+filmes em que ela trabalhou) */
+MATCH (ator1:Person)
+ -[]->()<-[]-
+ (ator2:Person)
+WHERE ator1.name <> ator2.name
+RETURN distinct ator2.name AS ator, ator1.name AS conhecidos
+
+/*  c) Mostre o nome de cada diretor que já dirigiu dois filmes em sequência sem atuar em nenhum
+outro filme lançado entre eles. */
+MATCH (diretor:Person)-[:DIRECTED]->(filme1:Movie)
+MATCH (diretor:Person)-[:DIRECTED]->(filme2:Movie)
+MATCH (filme:Movie)
+WHERE filme1.released < filme.released AND filme.released < filme2.released AND
+NOT EXISTS ((diretor:Person)-[:ACTED_IN]->(filme:Movie))
+RETURN distinct diretor.name
+
+/* d) O Tom Hanks está procurando atores para atuar em um novo filme que ele vai dirigir.
+Recomende possíveis atores para esse novo filme dele. */
+/* os 10 atores que mais aturaram em filmes */
+MATCH (ator:Person)-[:ACTED_IN]->(filme:Movie)
+RETURN ator.name, COUNT(filme) ORDER BY COUNT(filme) DESC LIMIT 10
+
+
+/* e) Recomende atores com os quais o Jack Nicholson poderia trabalhar junto (mas que nunca
+trabalhou antes). */
+/* atores que trabalharam com Tom Hanks mas não trabalharam com Jack Nicholson */
+MATCH (tom:Person {name: "Tom Hanks"})-[:ACTED_IN]->(filme:Movie)<-[:ACTED_IN]-(ator:Person)
+WHERE NOT EXISTS ((:Person {name: "Jack Nicholson"})-[:ACTED_IN]->(filme:Movie)<-[:ACTED_IN]-(ator:Person))
+RETURN ator.name
+
