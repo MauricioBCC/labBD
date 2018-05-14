@@ -1,3 +1,5 @@
+/* Mauricio Luiz Abreu Cardoso NUSP: 6796479*/
+
 /* a) Para cada ator, devolva o seu ano de estreia em filmes. */
 MATCH (ator:Person)-[:ACTED_IN]->(filme:Movie)
  RETURN ator.name, min(filme.released)
