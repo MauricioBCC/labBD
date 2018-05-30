@@ -11,7 +11,7 @@ public class ProfessorDAO {
 	// a conexão com o banco de dados
 	private Connection conexao;
 
-	public ContatoDAO() {
+	public ProfessorDAO() {
 		this.conexao = FabricaDeConexao.obterInstancia().obterConexao();
 	}
 

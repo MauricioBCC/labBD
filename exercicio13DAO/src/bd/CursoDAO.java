@@ -1,8 +1,8 @@
 package bd;
 
 import java.sql.*;
-/*import java.util.ArrayList;
-import java.util.List;*/
+import java.util.ArrayList;
+import java.util.List;
 
 import modelo.Curso;
 
@@ -11,7 +11,7 @@ public class CursoDAO {
 	// a conexão com o banco de dados
 	private Connection conexao;
 
-	public ContatoDAO() {
+	public CursoDAO() {
 		this.conexao = FabricaDeConexao.obterInstancia().obterConexao();
 	}
 
@@ -69,36 +69,71 @@ public class CursoDAO {
 		}
 	}
 
-/*	public curso obter(int id) {
+
+	// Retorna uma lista de cursos que tenham contidos em seu nome 
+	// o argumento "nome"
+	public List<Curso> obterPorNomeCurso(String nome) {
 		try {
-			Contato contato = null;
+			List<Curso> cursoLista = new ArrayList<Curso>();
+			Curso curso = null;
+			String padraoBusca = "%" + nome + "%";
 			
-			PreparedStatement stmt = conexao.prepareStatement("select * "
-					+ "from contatos where id=?");
-			stmt.setLong(1, id);
+			PreparedStatement stmt = conexao.prepareStatement("SELECT * "
+					+ "FROM curso WHERE nome LIKE ?");
+			stmt.setString(1, padraoBusca);
 			ResultSet rs = stmt.executeQuery();
 
-			if (rs.next()) {
-				contato = new Contato();
-				contato.setId(rs.getLong("id"));
-				contato.setNome(rs.getString("nome"));
-				contato.setEmail(rs.getString("email"));
-				contato.setEndereco(rs.getString("endereco"));
+			while (rs.next()) {
+				curso = new Curso();
+				curso.setNome(rs.getString("nome"));
+				curso.setHorario(rs.getString("horario"));
+				curso.setSala(rs.getString("sala"));
+				curso.setIdprof(rs.getLong("idprof"));
 
-				// montando a data através do Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
+				cursoLista.add(curso);
+
 			}
 			rs.close();
 			stmt.close();
-			return contato;
+			return cursoLista;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
 	}
 
-	public List<Contato> obterLista() {
+
+/*	// Retorna uma lista de cursos que o nome do professor contenha  
+	// o argumento "nome"
+	public List<Curso> obterPorNomeProf(String nome) {
+		try {
+			List<Curso> cursoLista = new ArrayList<Curso>();
+			Curso curso = null;
+			String padraoBusca = "%" + nome + "%";
+			
+			PreparedStatement stmt = conexao.prepareStatement("SELECT * "
+					+ "FROM curso WHERE nome LIKE ?");
+			stmt.setString(1, padraoBusca);
+			ResultSet rs = stmt.executeQuery();
+
+			while (rs.next()) {
+				curso = new Curso();
+				curso.setNome(rs.getString("nome"));
+				curso.setHorario(rs.getString("horario"));
+				curso.setSala(rs.getString("sala"));
+				curso.setIdprof(rs.getLong("idprof"));
+
+				cursoLista.add(curso);
+
+			}
+			rs.close();
+			stmt.close();
+			return cursoLista;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}*/
+
+/*	public List<Contato> obterLista() {
 		try {
 			List<Contato> contatos = new ArrayList<Contato>();
 			PreparedStatement stmt = this.conexao
