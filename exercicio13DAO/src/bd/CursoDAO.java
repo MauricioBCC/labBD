@@ -71,12 +71,12 @@ public class CursoDAO {
 
 
 	// Retorna uma lista de cursos que tenham contidos em seu nome 
-	// o argumento "nome"
-	public List<Curso> obterPorNomeCurso(String nome) {
+	// o argumento "nomeCurso"
+	public List<Curso> cursosNomeCurso(String nomeCurso) {
 		try {
 			List<Curso> cursoLista = new ArrayList<Curso>();
 			Curso curso = null;
-			String padraoBusca = "%" + nome + "%";
+			String padraoBusca = "%" + nomeCurso + "%";
 			
 			PreparedStatement stmt = conexao.prepareStatement("SELECT * "
 					+ "FROM curso WHERE nome LIKE ?");
@@ -101,17 +101,17 @@ public class CursoDAO {
 		}
 	}
 
-
-/*	// Retorna uma lista de cursos que o nome do professor contenha  
-	// o argumento "nome"
-	public List<Curso> obterPorNomeProf(String nome) {
+	// Retorna uma lista de cursos que o nome do professor contenha
+	// a string nomeProf
+	public List<Curso> cursosNomeProf(String nomeProf) {
 		try {
 			List<Curso> cursoLista = new ArrayList<Curso>();
 			Curso curso = null;
-			String padraoBusca = "%" + nome + "%";
+			String padraoBusca = "%" + nomeProf + "%";
 			
-			PreparedStatement stmt = conexao.prepareStatement("SELECT * "
-					+ "FROM curso WHERE nome LIKE ?");
+			PreparedStatement stmt = conexao.prepareStatement("SELECT curso.* "
+					+ "FROM curso, professor WHERE curso.idprof = professor.idprof "
+					 + "AND nomeprof LIKE ?");
 			stmt.setString(1, padraoBusca);
 			ResultSet rs = stmt.executeQuery();
 
@@ -131,37 +131,39 @@ public class CursoDAO {
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
-	}*/
+	}
 
-/*	public List<Contato> obterLista() {
+	// Retorna uma lista de cursos que o nome do professor contenha
+	// a string nomeCurso e o nome do curso contenha a string nomeCurso
+	public List<Curso> cursosNomeProf(String nomeCurso, String nomeProf) {
 		try {
-			List<Contato> contatos = new ArrayList<Contato>();
-			PreparedStatement stmt = this.conexao
-					.prepareStatement("select * from contatos");
+			List<Curso> cursoLista = new ArrayList<Curso>();
+			Curso curso = null;
+			String padraoCurso = "%" + nomeCurso + "%";
+			String padraoProf = "%" + nomeProf + "%";
+			
+			PreparedStatement stmt = conexao.prepareStatement("SELECT curso.* "
+					+ "FROM curso, professor WHERE nome LIKE ? AND " +
+					"curso.idprof = professor.idprof AND nomeprof LIKE ?");
+			stmt.setString(1, padraoCurso);
+			stmt.setString(1, padraoProf);
 			ResultSet rs = stmt.executeQuery();
 
 			while (rs.next()) {
-				// criando o objeto Contato
-				Contato contato = new Contato();
-				contato.setId(rs.getLong("id"));
-				contato.setNome(rs.getString("nome"));
-				contato.setEmail(rs.getString("email"));
-				contato.setEndereco(rs.getString("endereco"));
+				curso = new Curso();
+				curso.setNome(rs.getString("nome"));
+				curso.setHorario(rs.getString("horario"));
+				curso.setSala(rs.getString("sala"));
+				curso.setIdprof(rs.getLong("idprof"));
 
-				// montando a data através do Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
+				cursoLista.add(curso);
 
-				// adicionando o objeto à lista
-				contatos.add(contato);
 			}
 			rs.close();
 			stmt.close();
-			return contatos;
+			return cursoLista;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
-	}*/
-
+	}
 }

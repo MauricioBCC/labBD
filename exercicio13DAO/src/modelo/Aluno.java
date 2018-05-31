@@ -17,11 +17,11 @@ public class Aluno {
 		this.nroaluno = novo;
 	}
 
-	public String getNomeAluno() {
+	public String getNomealuno() {
 		return this.nomealuno;
 	}
 
-	public void setNomeAluno(String novo) {
+	public void setNomealuno(String novo) {
 		this.nomealuno = novo;
 	}
 

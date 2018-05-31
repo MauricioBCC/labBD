@@ -1,8 +1,6 @@
 package bd;
 
 import java.sql.*;
-/*import java.util.ArrayList;
-import java.util.List;*/
 
 import modelo.Aluno;
 
@@ -70,65 +68,4 @@ public class AlunoDAO {
 			throw new RuntimeException(e);
 		}
 	}
-
-/*	public Aluno obter(int id) {
-		try {
-			Contato contato = null;
-			
-			PreparedStatement stmt = conexao.prepareStatement("select * "
-					+ "from contatos where id=?");
-			stmt.setLong(1, id);
-			ResultSet rs = stmt.executeQuery();
-
-			if (rs.next()) {
-				contato = new Contato();
-				contato.setId(rs.getLong("id"));
-				contato.setNome(rs.getString("nome"));
-				contato.setEmail(rs.getString("email"));
-				contato.setEndereco(rs.getString("endereco"));
-
-				// montando a data através do Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
-			}
-			rs.close();
-			stmt.close();
-			return contato;
-		} catch (SQLException e) {
-			throw new RuntimeException(e);
-		}
-	}
-
-	public List<Contato> obterLista() {
-		try {
-			List<Contato> contatos = new ArrayList<Contato>();
-			PreparedStatement stmt = this.conexao
-					.prepareStatement("select * from contatos");
-			ResultSet rs = stmt.executeQuery();
-
-			while (rs.next()) {
-				// criando o objeto Contato
-				Contato contato = new Contato();
-				contato.setId(rs.getLong("id"));
-				contato.setNome(rs.getString("nome"));
-				contato.setEmail(rs.getString("email"));
-				contato.setEndereco(rs.getString("endereco"));
-
-				// montando a data através do Calendar
-				Calendar data = Calendar.getInstance();
-				data.setTime(rs.getDate("dataNascimento"));
-				contato.setDataNascimento(data);
-
-				// adicionando o objeto à lista
-				contatos.add(contato);
-			}
-			rs.close();
-			stmt.close();
-			return contatos;
-		} catch (SQLException e) {
-			throw new RuntimeException(e);
-		}
-	}*/
-
 }

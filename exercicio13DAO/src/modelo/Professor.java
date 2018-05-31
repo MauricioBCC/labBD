@@ -22,11 +22,11 @@ public class Professor {
 		this.nomeprof = novo;
 	}
 
-	public int getIddpeto() {
+	public int getIddepto() {
 		return this.iddepto;
 	}
 
-	public void setIddpeto(int idade) {
+	public void setIddepto(int idade) {
 		this.iddepto = iddepto;
 	}
 }
