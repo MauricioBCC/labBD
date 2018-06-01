@@ -60,7 +60,7 @@ public class CursoDAO {
 	public void remove(String nomecurso) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
-					+ "FROM curso WHERE idprof = ?");
+					+ "FROM curso WHERE nome = ?");
 			stmt.setString(1, nomecurso);
 			stmt.execute();
 			stmt.close();

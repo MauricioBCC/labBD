@@ -63,7 +63,7 @@ public class ServicoCursos {
 		return("Aluno alterado com sucesso");
 	}
 
-	public String deletaAluno(Long nroaluno) {
+	public String removeAluno(Long nroaluno) {
 		if(alunoDao == null)
 			alunoDao = new AlunoDAO();
 
@@ -117,7 +117,7 @@ public class ServicoCursos {
 		return("Professor alterado com sucesso");
 	}
 
-	public String deletaProfessor(Long idprof) {
+	public String removeProfessor(Long idprof) {
 		if(professorDao == null)
 			professorDao = new ProfessorDAO();
 
