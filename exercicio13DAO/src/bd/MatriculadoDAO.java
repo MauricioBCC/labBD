@@ -37,7 +37,6 @@ public class MatriculadoDAO {
 		}
 	}
 
-
 	// Retorna uma lista de matriculados tal que o curso é o argumento "nomecurso"
 	public List<Matriculado> listaMatriculado(String nomecurso) {
 		try {
