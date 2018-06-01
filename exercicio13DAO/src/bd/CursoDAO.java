@@ -42,7 +42,7 @@ public class CursoDAO {
 	}
 
 	public void altera(Curso curso) {
-		String sql = "UPDATE curso SET horario=?, sala=?, idprof=? WHERE nome=?";
+		String sql = "UPDATE curso SET horario = ?, sala = ?, idprof = ? WHERE nome = ?";
 		try {
 			PreparedStatement stmt = conexao.prepareStatement(sql);
 			stmt.setString(1, curso.getHorario());
@@ -60,7 +60,7 @@ public class CursoDAO {
 	public void remove(String nomecurso) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
-					+ "FROM curso WHERE idprof=?");
+					+ "FROM curso WHERE idprof = ?");
 			stmt.setString(1, nomecurso);
 			stmt.execute();
 			stmt.close();

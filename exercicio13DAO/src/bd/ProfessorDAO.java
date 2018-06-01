@@ -38,7 +38,7 @@ public class ProfessorDAO {
 	}
 
 	public void altera(Professor professor) {
-		String sql = "UPDATE professor SET nomeprof=?, iddepto=? WHERE idprof=?";
+		String sql = "UPDATE professor SET nomeprof = ?, iddepto = ? WHERE idprof = ?";
 		try {
 			PreparedStatement stmt = conexao.prepareStatement(sql);
 			stmt.setString(1, professor.getNomeprof());
@@ -55,7 +55,7 @@ public class ProfessorDAO {
 	public void remove(Long profid) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
-					+ "FROM professor WHERE idprof=?");
+					+ "FROM professor WHERE idprof = ?");
 			stmt.setLong(1, profid);
 			stmt.execute();
 			stmt.close();

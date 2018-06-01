@@ -40,8 +40,8 @@ public class AlunoDAO {
 	}
 
 	public void altera(Aluno aluno) {
-		String sql = "UPDATE aluno SET nomealuno=?, formacao=?, nivel=?"
-				+ "idade=? WHERE nroaluno=?";
+		String sql = "UPDATE aluno SET nomealuno = ?, formacao = ?, nivel = ?,"
+				+ "idade = ? WHERE nroaluno = ?";
 		try {
 			PreparedStatement stmt = conexao.prepareStatement(sql);
 			stmt.setString(1, aluno.getNomealuno());
@@ -60,7 +60,7 @@ public class AlunoDAO {
 	public void remove(Long nroaluno) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
-					+ "FROM aluno WHERE nroaluno=?");
+					+ "FROM aluno WHERE nroaluno = ?");
 			stmt.setLong(1, nroaluno);
 			stmt.execute();
 			stmt.close();
@@ -69,3 +69,4 @@ public class AlunoDAO {
 		}
 	}
 }
+
