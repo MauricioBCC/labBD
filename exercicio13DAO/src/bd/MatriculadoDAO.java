@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import modelo.Matriculado;
+import modelo.Aluno;
 
 public class MatriculadoDAO {
 
@@ -37,7 +38,8 @@ public class MatriculadoDAO {
 		}
 	}
 
-	// Retorna uma lista de matriculados tal que o curso é o argumento "nomecurso"
+
+	// Retorna uma lista de matriculados tal que o curso é "nomecurso"
 	public List<Matriculado> listaMatriculado(String nomecurso) {
 		try {
 			List<Matriculado> matriculadoLista = new ArrayList<Matriculado>();
@@ -59,6 +61,34 @@ public class MatriculadoDAO {
 			rs.close();
 			stmt.close();
 			return matriculadoLista;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	// Retorna uma lista de alunos matriculados na materia "nomecurso"
+	public List<Aluno> listaAlunoMatriculado(String nomecurso) {
+		try {
+			List<Aluno> alunosLista = new ArrayList<Aluno>();
+			Aluno aluno = null;
+			
+			PreparedStatement stmt = conexao.prepareStatement("SELECT aluno.* "
+					+ "FROM aluno, matriculado WHERE aluno.nroaluno = "
+					+ "matriculado.nroaluno AND nomecurso = ?");
+			stmt.setString(1, nomecurso);
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				aluno = new Aluno();
+				aluno.setNroaluno(rs.getLong("nroaluno"));
+				aluno.setNomealuno(rs.getString("nomealuno"));
+				aluno.setFormacao(rs.getString("formacao"));
+				aluno.setNivel(rs.getString("nivel"));
+				aluno.setIdade(rs.getInt("idade"));
+				alunosLista.add(aluno);
+			}
+			rs.close();
+			stmt.close();
+			return alunosLista;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}

@@ -1,7 +1,13 @@
 package apresentacao;
 
 import dominio.ServicoCursos;
+
+import modelo.Aluno;
+import modelo.Curso;
+
 import java.util.Scanner;
+import java.util.List;
+
 
 public class CursoUI {
 	public ServicoCursos scursos;
@@ -17,6 +23,7 @@ public class CursoUI {
 		Long nroaluno = sc.nextLong();
 
 		System.out.println("Digite o nome do aluno");
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
 
 		System.out.println("Digite a formacao do aluno");
@@ -24,6 +31,7 @@ public class CursoUI {
 
 		System.out.println("Digite o nivel do aluno");
 		String nivel = sc.next();
+		sc.reset();
 
 		System.out.println("Digite a idade do aluno");
 		int idade = sc.nextInt();
@@ -38,13 +46,15 @@ public class CursoUI {
 		Long nroaluno = sc.nextLong();
 
 		System.out.println("Digite o nome do aluno");
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
 
 		System.out.println("Digite a formacao do aluno");
 		String formacao = sc.next();
 
 		System.out.println("Digite o nivel do aluno");
-		String nivel = sc.next();
+		String nivel = sc.next();				
+		sc.reset();
 
 		System.out.println("Digite a idade do aluno");
 		int idade = sc.nextInt();
@@ -67,8 +77,10 @@ public class CursoUI {
 		System.out.println("Digite o numero do professor");
 		Long idprof = sc.nextLong();
 
-		System.out.println("Digite o nome do professor");
+		System.out.println("Digite o nome do professor");		
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
+		sc.reset();
 
 		System.out.println("Digite o numero do departamento" 
 			+ "que o professor pertence");
@@ -84,7 +96,9 @@ public class CursoUI {
 		Long idprof = sc.nextLong();
 
 		System.out.println("Digite o nome do professor");
-		String nome = sc.next();
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nome = sc.next();		
+		sc.reset();
 
 		System.out.println("Digite o numero do departamento"  
 			+ "que o professor pertence");
@@ -106,6 +120,7 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
 
 		System.out.println("Digite o horario");
@@ -113,6 +128,7 @@ public class CursoUI {
 
 		System.out.println("Digite a sala onde o curso e ministrado");
 		String sala = sc.next();
+		sc.reset();
 
 		System.out.println("Digite o numero do professor");
 		Long idprof = sc.nextLong();
@@ -124,6 +140,7 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
 
 		System.out.println("Digite o horario");
@@ -131,6 +148,7 @@ public class CursoUI {
 
 		System.out.println("Digite a sala onde o curso e ministrado");
 		String sala = sc.next();
+		sc.reset();
 
 		System.out.println("Digite o numero do professor");
 		Long idprof = sc.nextLong();
@@ -142,9 +160,60 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
 
 		System.out.println(scursos.removeCurso(nome));
+	}
+
+	public void listaCursosNome() {
+		Scanner sc = new Scanner(System.in);
+		List<Curso> listaCursos = null;
+
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "ou 2 para procurar pelo nome exato");
+		int escolha = sc.nextInt();
+
+		System.out.println("Digite o nome do curso");
+		/* necessario para o delimitador se tornar a quebra de linha em vez do espaco
+		(que eh o delimitador default) */
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nome = sc.next();
+		/* torna novamente o caracter espaco como delimitador*/
+		sc.reset();
+
+		if (escolha == 1) {
+			listaCursos = scursos.listaCursosNome(nome, 
+				scursos.NOME_CURSO_PARTE);
+		}
+		else if (escolha == 2) {
+			listaCursos = scursos.listaCursosNome(nome, 
+				scursos.NOME_CURSO_EXATO);
+		}
+
+		if (listaCursos != null) {
+			for(Curso curso : listaCursos) {
+				String dadosCurso = "Nome do curso: " + curso.getNome()
+				+ ", horario: " + curso.getHorario()
+				+ ", sala: " + curso.getSala()
+				+ ", id do professor: " + curso.getIdprof();
+				System.out.println(dadosCurso);
+
+				List<Aluno> listaAlunos = scursos.listaAlunoMatriculado(curso.getNome());
+				if(listaAlunos != null) {
+					for(Aluno aluno : listaAlunos) {						
+						String dadosAluno = "Numero do aluno: " + aluno.getNroaluno()
+						+ ", nome: " + aluno.getNomealuno()
+						+ ", formacao: " + aluno.getFormacao()
+						+ ", nivel: " + aluno.getNivel()
+						+ ", idade: " + aluno.getIdade();
+						System.out.println(dadosAluno);
+					}
+				}
+				System.out.println();
+			}
+		}
+
 	}
 
 	public static void main(String[] args) {
@@ -163,7 +232,10 @@ public class CursoUI {
 			System.out.println("(7) adicionar curso");
 			System.out.println("(8) altera curso");
 			System.out.println("(9) remover curso");
-			System.out.println("(10) Sair");
+			System.out.println("(10) Listar cursos por nome do curso");
+			System.out.println("(11) Listar cursos por nome do professor");
+			System.out.println("(12) Listar cursos por nome do curso e professor");
+			System.out.println("(13) Sair");
 
 			opcao = sc.nextInt();
 
@@ -186,7 +258,13 @@ public class CursoUI {
 						break;
 				case 9: cursoUi.removeCurso();
 						break;
-				case 10: return;
+				case 10: cursoUi.listaCursosNome();
+						break;
+/*				case 11: cursoUi.listaCursosProf();
+						break;
+				case 12: cursoUi.listaCursosNomeCursoProf();
+						break;*/
+				case 13: return;
 				default: System.out.println("Opcao invalida");;
 			}
 			System.out.println();

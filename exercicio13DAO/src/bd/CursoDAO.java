@@ -10,6 +10,11 @@ public class CursoDAO {
 
 	// a conexão com o banco de dados
 	private Connection conexao;
+	public final int NOME_CURSO_PARTE = 1;
+	public final int NOME_CURSO_EXATO = 2;
+	public final int NOME_PROF_PARTE = 1;
+	public final int NOME_PROF_EXATO = 2;
+
 
 	public CursoDAO() {
 		this.conexao = FabricaDeConexao.obterInstancia().obterConexao();
@@ -69,84 +74,131 @@ public class CursoDAO {
 		}
 	}
 
-
-	// Retorna uma lista de cursos que tenham contidos em seu nome 
-	// o argumento "nomeCurso"
-	public List<Curso> cursosNomeCurso(String nomeCurso) {
+	public List<Curso> cursosNome(String nomeCurso, int operacaoCurso) {
 		try {
 			List<Curso> cursoLista = new ArrayList<Curso>();
 			Curso curso = null;
-			String padraoBusca = "%" + nomeCurso + "%";
-			
-			PreparedStatement stmt = conexao.prepareStatement("SELECT * "
-					+ "FROM curso WHERE nome LIKE ?");
-			stmt.setString(1, padraoBusca);
-			ResultSet rs = stmt.executeQuery();
+			String buscaCurso = null;
+			String padraoCurso = null;
 
-			while (rs.next()) {
-				curso = new Curso();
-				curso.setNome(rs.getString("nome"));
-				curso.setHorario(rs.getString("horario"));
-				curso.setSala(rs.getString("sala"));
-				curso.setIdprof(rs.getLong("idprof"));
-
-				cursoLista.add(curso);
-
+			if(operacaoCurso == NOME_CURSO_PARTE) {
+				buscaCurso = "nome LIKE ";
+				padraoCurso = "%" + nomeCurso + "%";
 			}
-			rs.close();
-			stmt.close();
-			return cursoLista;
-		} catch (SQLException e) {
-			throw new RuntimeException(e);
-		}
-	}
+			else if(operacaoCurso == NOME_CURSO_EXATO) {
+				buscaCurso = "nome = ";
+				padraoCurso = nomeCurso;
+			}		
 
-	// Retorna uma lista de cursos que o nome do professor contenha
-	// a string nomeProf
-	public List<Curso> cursosNomeProf(String nomeProf) {
-		try {
-			List<Curso> cursoLista = new ArrayList<Curso>();
-			Curso curso = null;
-			String padraoBusca = "%" + nomeProf + "%";
-			
-			PreparedStatement stmt = conexao.prepareStatement("SELECT curso.* "
-					+ "FROM curso, professor WHERE curso.idprof = professor.idprof "
-					 + "AND nomeprof LIKE ?");
-			stmt.setString(1, padraoBusca);
-			ResultSet rs = stmt.executeQuery();
+			/* prepara a query */
+			String sql = "SELECT curso.* FROM curso WHERE "
+			+ buscaCurso + " ?";
 
-			while (rs.next()) {
-				curso = new Curso();
-				curso.setNome(rs.getString("nome"));
-				curso.setHorario(rs.getString("horario"));
-				curso.setSala(rs.getString("sala"));
-				curso.setIdprof(rs.getLong("idprof"));
+			PreparedStatement stmt = conexao.prepareStatement(sql);
 
-				cursoLista.add(curso);
-
-			}
-			rs.close();
-			stmt.close();
-			return cursoLista;
-		} catch (SQLException e) {
-			throw new RuntimeException(e);
-		}
-	}
-
-	// Retorna uma lista de cursos que o nome do professor contenha
-	// a string nomeCurso e o nome do curso contenha a string nomeCurso
-	public List<Curso> cursosNomeProf(String nomeCurso, String nomeProf) {
-		try {
-			List<Curso> cursoLista = new ArrayList<Curso>();
-			Curso curso = null;
-			String padraoCurso = "%" + nomeCurso + "%";
-			String padraoProf = "%" + nomeProf + "%";
-			
-			PreparedStatement stmt = conexao.prepareStatement("SELECT curso.* "
-					+ "FROM curso, professor WHERE nome LIKE ? AND " +
-					"curso.idprof = professor.idprof AND nomeprof LIKE ?");
 			stmt.setString(1, padraoCurso);
+
+			ResultSet rs = stmt.executeQuery();
+
+			while (rs.next()) {
+				curso = new Curso();
+				curso.setNome(rs.getString("nome"));
+				curso.setHorario(rs.getString("horario"));
+				curso.setSala(rs.getString("sala"));
+				curso.setIdprof(rs.getLong("idprof"));
+				cursoLista.add(curso);
+
+			}
+			rs.close();
+			stmt.close();
+			return cursoLista;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public List<Curso> cursosProf(String nomeProf, int operacaoProf) {
+		try {
+			List<Curso> cursoLista = new ArrayList<Curso>();
+			Curso curso = null;
+			String buscaProf = null;
+			String padraoProf = null;
+
+			if(operacaoProf == NOME_PROF_PARTE) {
+				buscaProf = "nomeprof LIKE ";
+				padraoProf = "%" + nomeProf + "%";
+			}
+			else if(operacaoProf == NOME_PROF_EXATO) {
+				buscaProf = "nomeprof = ";
+				padraoProf = nomeProf;
+			}		
+
+			/* prepara a query */
+			String sql = "SELECT curso.* FROM curso, professor WHERE "
+			+ "curso.idprof = professor.idprof AND " + buscaProf + " ?";
+
+			PreparedStatement stmt = conexao.prepareStatement(sql);
+
 			stmt.setString(1, padraoProf);
+
+			ResultSet rs = stmt.executeQuery();
+
+			while (rs.next()) {
+				curso = new Curso();
+				curso.setNome(rs.getString("nome"));
+				curso.setHorario(rs.getString("horario"));
+				curso.setSala(rs.getString("sala"));
+				curso.setIdprof(rs.getLong("idprof"));
+
+				cursoLista.add(curso);
+
+			}
+			rs.close();
+			stmt.close();
+			return cursoLista;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	public List<Curso> cursosNomeProf(String nomeCurso, String nomeProf, 
+		int operacaoCurso, int operacaoProf) {
+		try {
+			List<Curso> cursoLista = new ArrayList<Curso>();
+			Curso curso = null;
+			String buscaCurso = null;
+			String padraoCurso = null;
+			String buscaProf = null;
+			String padraoProf = null;
+
+			if(operacaoCurso == NOME_CURSO_PARTE) {
+				buscaCurso = "nome LIKE ";
+				padraoCurso = "%" + nomeCurso + "%";
+			}
+			else if(operacaoCurso == NOME_CURSO_EXATO) {
+				buscaCurso = "nome = ";
+				padraoCurso = nomeCurso;
+			}
+
+			if(operacaoProf == NOME_PROF_PARTE) {
+				buscaProf = "nomeprof LIKE ";
+				padraoProf = "%" + nomeProf + "%";
+			}
+			else if(operacaoProf == NOME_PROF_EXATO) {
+				buscaProf = "nomeprof = ";
+				padraoProf = nomeProf;
+			}			
+
+			/* prepara a query */
+			String sql = "SELECT curso.* FROM curso, professor WHERE "
+			+ "curso.idprof = professor.idprof AND " + buscaCurso + " ? AND "
+			+ buscaProf + " ? ";
+
+			PreparedStatement stmt = conexao.prepareStatement(sql);
+
+			stmt.setString(1, padraoCurso);
+			stmt.setString(2, padraoProf);
+
 			ResultSet rs = stmt.executeQuery();
 
 			while (rs.next()) {

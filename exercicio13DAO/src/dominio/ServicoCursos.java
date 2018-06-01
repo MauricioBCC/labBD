@@ -11,12 +11,17 @@ import bd.CursoDAO;
 import bd.MatriculadoDAO;
 
 import java.lang.RuntimeException;
+import java.util.List;
 
 public class ServicoCursos {
 	AlunoDAO alunoDao = null;
 	ProfessorDAO professorDao = null;
 	CursoDAO cursoDao = null;
 	MatriculadoDAO matriculadoDao = null;
+	public final int NOME_CURSO_PARTE = 1;
+	public final int NOME_CURSO_EXATO = 2;
+	public final int NOME_PROF_PARTE = 1;
+	public final int NOME_PROF_EXATO = 2;
 
 
 	public String insereAluno(Long nroaluno, String nomealuno, 
@@ -185,5 +190,85 @@ public class ServicoCursos {
 		}
 
 		return("Curso removido com sucesso");
+	}
+
+	public List<Curso> listaCursosNome(String nomeCurso, int operacaoCurso) {
+		List<Curso> listaCursos = null;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+
+		try {
+			if(operacaoCurso == NOME_CURSO_PARTE) {
+				listaCursos = cursoDao.cursosNome(nomeCurso, cursoDao.NOME_CURSO_PARTE);
+			}
+			else if(operacaoCurso == NOME_CURSO_EXATO) {
+				listaCursos = cursoDao.cursosNome(nomeCurso, cursoDao.NOME_CURSO_EXATO);
+			}
+		}
+		catch(RuntimeException e) {
+			return null;
+		}
+		return listaCursos;
+	}
+
+	public List<Curso> listaCursosProf(String nomeProf, int operacaoProf) {
+		List<Curso> listaCursos = null;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+
+		try {
+			if(operacaoProf == NOME_PROF_PARTE) {
+				listaCursos = cursoDao.cursosProf(nomeProf, cursoDao.NOME_PROF_PARTE);
+			}
+			else if(operacaoProf == NOME_PROF_EXATO) {
+				listaCursos = cursoDao.cursosProf(nomeProf, cursoDao.NOME_PROF_EXATO);
+			}
+		}
+		catch(RuntimeException e) {
+			return null;
+		}
+		return listaCursos;
+	}
+
+	public List<Curso> listaCursosNomeCursoProf(String nomeCurso, int operacaoCurso, 
+		String nomeProf, int operacaoProf) {
+		List<Curso> listaCursos = null;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+
+		try {
+			if(operacaoCurso == NOME_CURSO_PARTE && operacaoProf == NOME_PROF_PARTE) {
+				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_PARTE, 
+					cursoDao.NOME_PROF_PARTE);
+			}
+			else if(operacaoCurso == NOME_CURSO_PARTE && operacaoProf == NOME_PROF_EXATO) {
+				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_PARTE, 
+					cursoDao.NOME_PROF_EXATO);
+			}
+			else if(operacaoCurso == NOME_CURSO_EXATO && operacaoProf == NOME_PROF_EXATO) {
+				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_EXATO, 
+					cursoDao.NOME_PROF_EXATO);
+			}
+		}
+		catch(RuntimeException e) {
+			return null;
+		}
+		return listaCursos;
+	}
+
+
+	public List<Aluno> listaAlunoMatriculado(String nomecurso) {
+		List<Aluno> listaAlunos = null;
+
+		if(matriculadoDao == null)
+			matriculadoDao = new MatriculadoDAO();
+
+		try {
+			listaAlunos = matriculadoDao.listaAlunoMatriculado(nomecurso);
+		}
+		catch(RuntimeException e) {
+			return null;
+		}
+		return listaAlunos;
 	}
 }
