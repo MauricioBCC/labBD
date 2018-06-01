@@ -230,8 +230,8 @@ public class ServicoCursos {
 		return listaCursos;
 	}
 
-	public List<Curso> listaCursosNomeCursoProf(String nomeCurso, int operacaoCurso, 
-		String nomeProf, int operacaoProf) {
+	public List<Curso> listaCursosNomeCursoProf(String nomeCurso, String nomeProf, 
+		int operacaoCurso, int operacaoProf) {
 		List<Curso> listaCursos = null;
 		if(cursoDao == null)
 			cursoDao = new CursoDAO();

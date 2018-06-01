@@ -171,7 +171,7 @@ public class CursoUI {
 		List<Curso> listaCursos = null;
 
 		System.out.println("Digite 1 para procurar por parte do nome "
-			+ "ou 2 para procurar pelo nome exato");
+			+ "do curso ou 2 para procurar pelo nome exato");
 		int escolha = sc.nextInt();
 
 		System.out.println("Digite o nome do curso");
@@ -214,6 +214,114 @@ public class CursoUI {
 			}
 		}
 
+	}
+
+	public void listaCursosProf() {
+		Scanner sc = new Scanner(System.in);
+		List<Curso> listaCursos = null;
+
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do professor ou 2 para procurar pelo nome exato");
+		int escolha = sc.nextInt();
+
+		System.out.println("Digite o nome do professor");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nome = sc.next();
+		sc.reset();
+
+		if (escolha == 1) {
+			listaCursos = scursos.listaCursosProf(nome, 
+				scursos.NOME_PROF_PARTE);
+		}
+		else if (escolha == 2) {
+			listaCursos = scursos.listaCursosProf(nome, 
+				scursos.NOME_PROF_EXATO);
+		}
+
+		if (listaCursos != null) {
+			for(Curso curso : listaCursos) {
+				String dadosCurso = "Nome do curso: " + curso.getNome()
+				+ ", horario: " + curso.getHorario()
+				+ ", sala: " + curso.getSala()
+				+ ", id do professor: " + curso.getIdprof();
+				System.out.println(dadosCurso);
+
+				List<Aluno> listaAlunos = scursos.listaAlunoMatriculado(curso.getNome());
+				if(listaAlunos != null) {
+					for(Aluno aluno : listaAlunos) {						
+						String dadosAluno = "Numero do aluno: " + aluno.getNroaluno()
+						+ ", nome: " + aluno.getNomealuno()
+						+ ", formacao: " + aluno.getFormacao()
+						+ ", nivel: " + aluno.getNivel()
+						+ ", idade: " + aluno.getIdade();
+						System.out.println(dadosAluno);
+					}
+				}
+				System.out.println();
+			}
+		}
+	}
+
+	public void listaCursosNomeCursoProf() {
+		Scanner sc = new Scanner(System.in);
+		List<Curso> listaCursos = null;
+
+		/* dados sobre o curso */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do curso ou 2 para procurar pelo nome exato");
+		int escolhaCurso = sc.nextInt();
+
+		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomeCurso = sc.next();
+		sc.reset();
+
+		/* dados sobre o professor */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do professor ou 2 para procurar pelo nome exato");
+		int escolhaProf = sc.nextInt();
+
+		System.out.println("Digite o nome do professor");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomeProf = sc.next();		
+		sc.reset();
+
+		/* busca a lista de cursos */
+		if(escolhaCurso == 1 && escolhaProf == 1) {
+			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
+				nomeProf, scursos.NOME_CURSO_PARTE, scursos.NOME_PROF_PARTE);
+		}
+		else if(escolhaCurso == 2 && escolhaProf == 1) {
+			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
+				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_PARTE);
+		}
+		else if(escolhaCurso == 2 && escolhaProf == 2) {
+			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
+				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_EXATO);
+		}
+
+		if (listaCursos != null) {
+			for(Curso curso : listaCursos) {
+				String dadosCurso = "Nome do curso: " + curso.getNome()
+				+ ", horario: " + curso.getHorario()
+				+ ", sala: " + curso.getSala()
+				+ ", id do professor: " + curso.getIdprof();
+				System.out.println(dadosCurso);
+
+				List<Aluno> listaAlunos = scursos.listaAlunoMatriculado(curso.getNome());
+				if(listaAlunos != null) {
+					for(Aluno aluno : listaAlunos) {						
+						String dadosAluno = "Numero do aluno: " + aluno.getNroaluno()
+						+ ", nome: " + aluno.getNomealuno()
+						+ ", formacao: " + aluno.getFormacao()
+						+ ", nivel: " + aluno.getNivel()
+						+ ", idade: " + aluno.getIdade();
+						System.out.println(dadosAluno);
+					}
+				}
+				System.out.println();
+			}
+		}
 	}
 
 	public static void main(String[] args) {
@@ -260,10 +368,10 @@ public class CursoUI {
 						break;
 				case 10: cursoUi.listaCursosNome();
 						break;
-/*				case 11: cursoUi.listaCursosProf();
+				case 11: cursoUi.listaCursosProf();
 						break;
 				case 12: cursoUi.listaCursosNomeCursoProf();
-						break;*/
+						break;
 				case 13: return;
 				default: System.out.println("Opcao invalida");;
 			}
