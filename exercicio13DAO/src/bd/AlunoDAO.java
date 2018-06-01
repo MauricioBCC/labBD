@@ -57,11 +57,11 @@ public class AlunoDAO {
 		}
 	}
 
-	public void remove(Aluno aluno) {
+	public void remove(Long nroaluno) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
 					+ "FROM aluno WHERE nroaluno=?");
-			stmt.setLong(1, aluno.getNroaluno());
+			stmt.setLong(1, nroaluno);
 			stmt.execute();
 			stmt.close();
 		} catch (SQLException e) {

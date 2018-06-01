@@ -52,11 +52,11 @@ public class ProfessorDAO {
 		}
 	}
 
-	public void remove(Professor professor) {
+	public void remove(Long profid) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
 					+ "FROM professor WHERE idprof=?");
-			stmt.setLong(1, professor.getIdprof());
+			stmt.setLong(1, profid);
 			stmt.execute();
 			stmt.close();
 		} catch (SQLException e) {

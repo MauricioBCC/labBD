@@ -57,11 +57,11 @@ public class CursoDAO {
 		}
 	}
 
-	public void remove(Curso curso) {
+	public void remove(String nomecurso) {
 		try {
 			PreparedStatement stmt = conexao.prepareStatement("DELETE "
 					+ "FROM curso WHERE idprof=?");
-			stmt.setLong(1, curso.getIdprof());
+			stmt.setString(1, nomecurso);
 			stmt.execute();
 			stmt.close();
 		} catch (SQLException e) {

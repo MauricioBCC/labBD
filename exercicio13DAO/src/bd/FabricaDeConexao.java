@@ -8,8 +8,8 @@ public class FabricaDeConexao {
 	// MODIFIQUE O VALOR DESTAS CONSTANTES COM OS DADOS DO SEU BD
 	public static final String NOME_DRIVER = "org.postgresql.Driver";
 	public static final String URL_BD = "jdbc:postgresql:exercicio13";
-	public static final String USUARIO_BD = "conta";
-	public static final String SENHA_BD = "senha";
+	public static final String USUARIO_BD = "postgres";
+	public static final String SENHA_BD = "postgres";
 
 	private static FabricaDeConexao fabricaDeConexao = null;
 

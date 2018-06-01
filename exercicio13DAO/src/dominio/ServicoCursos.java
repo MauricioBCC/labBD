@@ -10,7 +10,7 @@ import bd.ProfessorDAO;
 import bd.CursoDAO;
 import bd.MatriculadoDAO;
 
-import java.sql.RuntimeException;
+import java.lang.RuntimeException;
 
 public class ServicoCursos {
 	AlunoDAO alunoDao = null;
@@ -68,7 +68,7 @@ public class ServicoCursos {
 			alunoDao = new AlunoDAO();
 
 		try {
-			alunoDao.deleta(nroaluno);
+			alunoDao.remove(nroaluno);
 		}
 		catch (RuntimeException e) {
 			return("Erro ao excluir aluno");
