@@ -2,6 +2,7 @@ package modelo;
 
 public class Curso {
 
+	// chave primaria  (nome)
 	private String nome;
 	private String horario;
 	private String sala;

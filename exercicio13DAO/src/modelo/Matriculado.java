@@ -2,7 +2,8 @@ package modelo;
 
 public class Matriculado {
 
-	private Long nroaluno;
+	// chave primaria composta (nroaluno, nomecurso)
+	private Long nroaluno; 
 	private String nomecurso;
 
 	public Long getNroaluno() {

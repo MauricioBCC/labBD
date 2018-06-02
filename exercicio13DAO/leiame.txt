@@ -2,7 +2,7 @@
 $ javac src/**/*.java
 
 >>> Para executar um dos programas de teste (qualquer um que estiver dentro do diretório src/teste, como, por exemplo o TestaInsere), faça:
-$ java -classpath ./src:./postgresql-9.4.1212.jar teste.TestaInsere
+$ java -classpath ./src:./postgresql-9.4.1212.jar apresentacao.CursoUI
 
 Obs.:
 - Antes de compilar o código, corrija as informações para a conexão com o BD no arquivo src/bd/FabricaDeConexao.java . 

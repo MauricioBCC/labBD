@@ -22,7 +22,6 @@ public class ProfessorDAO {
 			PreparedStatement stmt = conexao.prepareStatement(sql);
 
 			// seta os valores
-
 			stmt.setLong(1, professor.getIdprof());
 			stmt.setString(2, professor.getNomeprof());
 			stmt.setInt(3, professor.getIddepto());

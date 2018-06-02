@@ -2,6 +2,7 @@ package modelo;
 
 public class Aluno {
 
+	// chave primaria  (nroaluno)
 	private Long nroaluno;
 	private String nomealuno;
 	private String formacao;

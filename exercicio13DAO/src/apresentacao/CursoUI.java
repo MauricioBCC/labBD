@@ -82,7 +82,7 @@ public class CursoUI {
 		String nome = sc.next();
 		sc.reset();
 
-		System.out.println("Digite o numero do departamento" 
+		System.out.println("Digite o numero do departamento " 
 			+ "que o professor pertence");
 		int iddepto = sc.nextInt();
 
@@ -101,7 +101,7 @@ public class CursoUI {
 		sc.reset();
 
 		System.out.println("Digite o numero do departamento"  
-			+ "que o professor pertence");
+			+ " que o professor pertence");
 		int iddepto = sc.nextInt();
 
 		System.out.println(scursos.alteraProfessor(idprof, nome, iddepto));
@@ -170,18 +170,17 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		List<Curso> listaCursos = null;
 
+		/* nome do curso(ou parte) */
 		System.out.println("Digite 1 para procurar por parte do nome "
 			+ "do curso ou 2 para procurar pelo nome exato");
 		int escolha = sc.nextInt();
 
 		System.out.println("Digite o nome do curso");
-		/* necessario para o delimitador se tornar a quebra de linha em vez do espaco
-		(que eh o delimitador default) */
 		sc.useDelimiter(System.getProperty("line.separator"));
 		String nome = sc.next();
-		/* torna novamente o caracter espaco como delimitador*/
 		sc.reset();
 
+		/* busca a lista de cursos */
 		if (escolha == 1) {
 			listaCursos = scursos.listaCursosNome(nome, 
 				scursos.NOME_CURSO_PARTE);
@@ -191,6 +190,7 @@ public class CursoUI {
 				scursos.NOME_CURSO_EXATO);
 		}
 
+		/* mostra a lista de cursos e a lista de alunos de cada curso */
 		if (listaCursos != null) {
 			for(Curso curso : listaCursos) {
 				String dadosCurso = "Nome do curso: " + curso.getNome()
@@ -220,6 +220,7 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		List<Curso> listaCursos = null;
 
+		/* nome do professor(ou parte) */
 		System.out.println("Digite 1 para procurar por parte do nome "
 			+ "do professor ou 2 para procurar pelo nome exato");
 		int escolha = sc.nextInt();
@@ -229,6 +230,7 @@ public class CursoUI {
 		String nome = sc.next();
 		sc.reset();
 
+		/* busca a lista de cursos */
 		if (escolha == 1) {
 			listaCursos = scursos.listaCursosProf(nome, 
 				scursos.NOME_PROF_PARTE);
@@ -238,6 +240,7 @@ public class CursoUI {
 				scursos.NOME_PROF_EXATO);
 		}
 
+		/* mostra a lista de cursos e a lista de alunos de cada curso */
 		if (listaCursos != null) {
 			for(Curso curso : listaCursos) {
 				String dadosCurso = "Nome do curso: " + curso.getNome()
@@ -266,7 +269,7 @@ public class CursoUI {
 		Scanner sc = new Scanner(System.in);
 		List<Curso> listaCursos = null;
 
-		/* dados sobre o curso */
+		/* nome do curso(ou parte) */
 		System.out.println("Digite 1 para procurar por parte do nome "
 			+ "do curso ou 2 para procurar pelo nome exato");
 		int escolhaCurso = sc.nextInt();
@@ -276,7 +279,7 @@ public class CursoUI {
 		String nomeCurso = sc.next();
 		sc.reset();
 
-		/* dados sobre o professor */
+		/* nome do professor(ou parte) */
 		System.out.println("Digite 1 para procurar por parte do nome "
 			+ "do professor ou 2 para procurar pelo nome exato");
 		int escolhaProf = sc.nextInt();
@@ -295,11 +298,16 @@ public class CursoUI {
 			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
 				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_PARTE);
 		}
+		else if(escolhaCurso == 1 && escolhaProf == 2) {
+			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
+				nomeProf, scursos.NOME_CURSO_PARTE, scursos.NOME_PROF_EXATO);
+		}
 		else if(escolhaCurso == 2 && escolhaProf == 2) {
 			listaCursos = scursos.listaCursosNomeCursoProf(nomeCurso, 
 				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_EXATO);
 		}
 
+		/* mostra a lista de cursos e a lista de alunos de cada curso */
 		if (listaCursos != null) {
 			for(Curso curso : listaCursos) {
 				String dadosCurso = "Nome do curso: " + curso.getNome()
@@ -324,6 +332,110 @@ public class CursoUI {
 		}
 	}
 
+	public void matriculaAlunoCursosNome() {
+		Scanner sc = new Scanner(System.in);
+		int numMatriculas = 0;
+
+		System.out.println("Digite o numero do aluno");
+		Long nroaluno = sc.nextLong();
+
+		/* nome do curso(ou parte) */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do curso ou 2 para procurar pelo nome exato");
+		int escolha = sc.nextInt();
+
+		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomecurso = sc.next();
+		sc.reset();
+		/* matricular aluno segundo opcao escolhida */
+		if (escolha == 1) {
+			numMatriculas =scursos.matriculaAlunoCursosNome(nroaluno, nomecurso, 
+				scursos.NOME_CURSO_PARTE);
+		}
+		else if (escolha == 2) {
+			numMatriculas = scursos.matriculaAlunoCursosNome(nroaluno, nomecurso, 
+				scursos.NOME_CURSO_EXATO);
+		}
+		System.out.println("Quantidade de matrículas: " + numMatriculas);
+	}
+
+	public void matriculaAlunoCursosProf() {
+		Scanner sc = new Scanner(System.in);
+		int numMatriculas = 0;
+
+		System.out.println("Digite o numero do aluno");
+		Long nroaluno = sc.nextLong();
+
+		/* nome do professor(ou parte) */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do professor ou 2 para procurar pelo nome exato");
+		int escolha = sc.nextInt();
+
+		System.out.println("Digite o nome do professor");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomeProf = sc.next();
+		sc.reset();
+
+		/* matricular aluno segundo opcao escolhida */
+		if (escolha == 1) {
+			numMatriculas = scursos.matriculaAlunoCursosProf(nroaluno, nomeProf, 
+				scursos.NOME_PROF_PARTE);
+		}
+		else if (escolha == 2) {
+			numMatriculas = scursos.matriculaAlunoCursosProf(nroaluno, nomeProf, 
+				scursos.NOME_PROF_EXATO);
+		}
+		System.out.println("Quantidade de matrículas: " + numMatriculas);
+	}
+
+	public void matriculaAlunoCursosNomeProf() {
+		Scanner sc = new Scanner(System.in);
+		int numMatriculas = 0;
+
+		System.out.println("Digite o numero do aluno");
+		Long nroaluno = sc.nextLong();
+
+		/* nome do curso(ou parte) */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do curso ou 2 para procurar pelo nome exato");
+		int escolhaCurso = sc.nextInt();
+
+		System.out.println("Digite o nome do curso");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomecurso = sc.next();
+		sc.reset();
+
+		/* nome do professor(ou parte) */
+		System.out.println("Digite 1 para procurar por parte do nome "
+			+ "do professor ou 2 para procurar pelo nome exato");
+		int escolhaProf = sc.nextInt();
+
+		System.out.println("Digite o nome do professor");
+		sc.useDelimiter(System.getProperty("line.separator"));
+		String nomeProf = sc.next();
+		sc.reset();
+
+		/* matricular aluno segundo opcoes escolhidas */
+		if (escolhaCurso == 1 && escolhaProf == 1) {
+			numMatriculas = scursos.matriculaAlunoCursosNomeProf(nroaluno, nomecurso, 
+				nomeProf, scursos.NOME_CURSO_PARTE, scursos.NOME_PROF_PARTE);
+		}
+		else if (escolhaCurso == 2 && escolhaProf == 1) {
+			numMatriculas = scursos.matriculaAlunoCursosNomeProf(nroaluno, nomecurso, 
+				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_PARTE);
+		}
+		else if (escolhaCurso == 1 && escolhaProf == 2) {
+			numMatriculas = scursos.matriculaAlunoCursosNomeProf(nroaluno, nomecurso, 
+				nomeProf, scursos.NOME_CURSO_PARTE, scursos.NOME_PROF_EXATO);
+		}
+		else if (escolhaCurso == 2 && escolhaProf == 2) {
+			numMatriculas = scursos.matriculaAlunoCursosNomeProf(nroaluno, nomecurso, 
+				nomeProf, scursos.NOME_CURSO_EXATO, scursos.NOME_PROF_EXATO);
+		}
+		System.out.println("Quantidade de matrículas: " + numMatriculas);
+	}
+
 	public static void main(String[] args) {
 		CursoUI cursoUi = new CursoUI();
 		Scanner sc = new Scanner(System.in);
@@ -343,7 +455,12 @@ public class CursoUI {
 			System.out.println("(10) Listar cursos por nome do curso");
 			System.out.println("(11) Listar cursos por nome do professor");
 			System.out.println("(12) Listar cursos por nome do curso e professor");
-			System.out.println("(13) Sair");
+			System.out.println("(13) Matricular aluno em cursos passando nome do curso(ou parte do nome)");
+			System.out.println("(14) Matricular aluno em cursos passando nome do professor do curso(ou parte "
+				+ "do nome)");
+			System.out.println("(15) Matricular aluno em cursos passando nome do curso(ou parte do nome) e "
+				+ "nome do professor do curso(ou parte do nome)");
+			System.out.println("(16) Sair");
 
 			opcao = sc.nextInt();
 
@@ -372,7 +489,13 @@ public class CursoUI {
 						break;
 				case 12: cursoUi.listaCursosNomeCursoProf();
 						break;
-				case 13: return;
+				case 13: cursoUi.matriculaAlunoCursosNome();
+						break;
+				case 14: cursoUi.matriculaAlunoCursosProf();
+						break;
+				case 15: cursoUi.matriculaAlunoCursosNomeProf();
+						break;
+				case 16: return;
 				default: System.out.println("Opcao invalida");;
 			}
 			System.out.println();

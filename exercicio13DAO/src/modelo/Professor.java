@@ -2,7 +2,8 @@ package modelo;
 
 public class Professor {
 
-	private Long idprof;
+	// chave primaria  (idprof)
+	private Long idprof; 
 	private String nomeprof;
 	private int iddepto;
 
@@ -26,7 +27,7 @@ public class Professor {
 		return this.iddepto;
 	}
 
-	public void setIddepto(int idade) {
+	public void setIddepto(int iddepto) {
 		this.iddepto = iddepto;
 	}
 }

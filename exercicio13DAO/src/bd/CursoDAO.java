@@ -187,8 +187,8 @@ public class CursoDAO {
 			else if(operacaoProf == NOME_PROF_EXATO) {
 				buscaProf = "nomeprof = ";
 				padraoProf = nomeProf;
-			}			
-
+			}
+			
 			/* prepara a query */
 			String sql = "SELECT curso.* FROM curso, professor WHERE "
 			+ "curso.idprof = professor.idprof AND " + buscaCurso + " ? AND "

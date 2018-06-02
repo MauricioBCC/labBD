@@ -241,6 +241,10 @@ public class ServicoCursos {
 				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_PARTE, 
 					cursoDao.NOME_PROF_PARTE);
 			}
+			else if(operacaoCurso == NOME_CURSO_EXATO && operacaoProf == NOME_PROF_PARTE) {
+				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_EXATO, 
+					cursoDao.NOME_PROF_PARTE);
+			}
 			else if(operacaoCurso == NOME_CURSO_PARTE && operacaoProf == NOME_PROF_EXATO) {
 				listaCursos = cursoDao.cursosNomeProf(nomeCurso, nomeProf, cursoDao.NOME_CURSO_PARTE, 
 					cursoDao.NOME_PROF_EXATO);
@@ -270,5 +274,82 @@ public class ServicoCursos {
 			return null;
 		}
 		return listaAlunos;
+	}
+
+	public int matriculaAlunoCursosNome(Long nroaluno, String nomeCurso, int operacaoCurso) {
+		List<Curso> listaCursos = null;
+		int contMatricula = 0;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+		if(matriculadoDao == null)
+			matriculadoDao = new MatriculadoDAO();
+
+		listaCursos = listaCursosNome(nomeCurso, operacaoCurso);
+		
+		for (Curso curso : listaCursos) {
+			try {
+				Matriculado matriculado = new Matriculado();
+				matriculado.setNroaluno(nroaluno);
+				matriculado.setNomecurso(curso.getNome());
+				matriculadoDao.adiciona(matriculado);
+				contMatricula++;
+			}
+			catch(RuntimeException e) {
+				/* caso em que aluno já está inserido */
+			}
+		}
+		return contMatricula;
+	}
+
+	public int matriculaAlunoCursosProf(Long nroaluno, String nomeProf, int operacaoProf) {
+		List<Curso> listaCursos = null;
+		int contMatricula = 0;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+		if(matriculadoDao == null)
+			matriculadoDao = new MatriculadoDAO();
+
+		listaCursos = listaCursosProf(nomeProf, operacaoProf);
+		
+		for (Curso curso : listaCursos) {
+			try {
+				Matriculado matriculado = new Matriculado();
+				matriculado.setNroaluno(nroaluno);
+				matriculado.setNomecurso(curso.getNome());
+				matriculadoDao.adiciona(matriculado);
+				contMatricula++;
+			}
+			catch(RuntimeException e) {
+				/* caso em que aluno já está inserido */
+			}
+		}
+		return contMatricula;
+	}
+
+	public int matriculaAlunoCursosNomeProf(Long nroaluno, String nomeCurso, String nomeProf,
+	 int operacaoCurso, int operacaoProf) {
+		List<Curso> listaCursos = null;
+		int contMatricula = 0;
+		if(cursoDao == null)
+			cursoDao = new CursoDAO();
+		if(matriculadoDao == null)
+			matriculadoDao = new MatriculadoDAO();
+
+		listaCursos = listaCursosNomeCursoProf(nomeCurso, nomeProf, 
+			operacaoCurso, operacaoProf);
+		
+		for (Curso curso : listaCursos) {
+			try {
+				Matriculado matriculado = new Matriculado();
+				matriculado.setNroaluno(nroaluno);
+				matriculado.setNomecurso(curso.getNome());
+				matriculadoDao.adiciona(matriculado);
+				contMatricula++;
+			}
+			catch(RuntimeException e) {
+				/* caso em que aluno já está inserido */
+			}
+		}
+		return contMatricula;
 	}
 }
